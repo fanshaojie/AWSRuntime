@@ -1,0 +1,32 @@
+{
+  "name": "AWSRuntime",
+  "version": "0.1.0",
+  "summary": "A short description of AWSRuntime.",
+  "description": "support aws sdk s3 path style",
+  "homepage": "https://github.com/502391721@qq.com/AWSRuntime",
+  "screenshots": [
+    "www.example.com/screenshots_1",
+    "www.example.com/screenshots_2"
+  ],
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "502391721@qq.com": "fanshaojie@unionread.com"
+  },
+  "source": {
+    "git": "https://github.com/502391721@qq.com/AWSRuntime.git",
+    "tag": "0.1.0"
+  },
+  "platforms": {
+    "ios": "8.0"
+  },
+  "source_files": "AWSRuntime/Classes/**/*",
+  "requires_arc": false,
+  "public_header_files": "AWSRuntime/Classes/**/*.h",
+  "frameworks": [
+    "Foundation",
+    "MobileCoreServices"
+  ]
+}

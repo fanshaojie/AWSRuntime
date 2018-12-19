@@ -1,0 +1,1 @@
+../../../../../AWSRuntime/Classes/Amazon.Runtime/AmazonLogger.h

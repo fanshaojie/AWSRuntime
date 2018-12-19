@@ -1,0 +1,6 @@
+framework module AWSRuntime {
+  umbrella header "AWSRuntime-umbrella.h"
+
+  export *
+  module * { export * }
+}

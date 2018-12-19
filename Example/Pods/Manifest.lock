@@ -1,0 +1,16 @@
+PODS:
+  - AWSRuntime (0.1.0)
+
+DEPENDENCIES:
+  - AWSRuntime (from `../`)
+
+EXTERNAL SOURCES:
+  AWSRuntime:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  AWSRuntime: 44a4014a3aa59802b53ce5c06b55aa966fbdec97
+
+PODFILE CHECKSUM: 1e0ed43a108b7b233916302b192297ca82d3f81e
+
+COCOAPODS: 1.5.3

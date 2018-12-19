@@ -1,0 +1,13 @@
+#use_frameworks!
+
+platform :ios, '8.0'
+
+target 'AWSRuntime_Example' do
+  pod 'AWSRuntime', :path => '../'
+
+  target 'AWSRuntime_Tests' do
+    inherit! :search_paths
+
+    
+  end
+end
