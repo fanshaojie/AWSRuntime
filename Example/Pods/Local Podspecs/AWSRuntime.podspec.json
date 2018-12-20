@@ -1,6 +1,6 @@
 {
   "name": "AWSRuntime",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "summary": "AWSRuntime for my Company",
   "description": "support aws sdk s3 path style",
   "homepage": "https://github.com/fanshaojie/AWSRuntime",
@@ -13,7 +13,7 @@
   },
   "source": {
     "git": "https://github.com/fanshaojie/AWSRuntime.git",
-    "tag": "0.0.1"
+    "tag": "0.0.2"
   },
   "platforms": {
     "ios": "8.0"

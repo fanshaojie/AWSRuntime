@@ -14,12 +14,14 @@
  */
 
 
-
+#import "AmazonErrorHandler.h"
+#import "AmazonLogger.h"
 // Public Constants
 NSString *const AWSiOSSDKServiceErrorDomain = @"com.amazonaws.iossdk.ServiceErrorDomain";
 NSString *const AWSiOSSDKClientErrorDomain = @"com.amazonaws.iossdk.ClientErrorDomain";
 
 static BOOL throwsExceptions = YES;
+
 
 @implementation AmazonErrorHandler
 

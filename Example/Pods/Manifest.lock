@@ -1,5 +1,5 @@
 PODS:
-  - AWSRuntime (0.0.1)
+  - AWSRuntime (0.0.2)
 
 DEPENDENCIES:
   - AWSRuntime (from `../`)
@@ -9,7 +9,7 @@ EXTERNAL SOURCES:
     :path: "../"
 
 SPEC CHECKSUMS:
-  AWSRuntime: c051c7ca1718426b0c0e3bd06f78906d91a5bb1f
+  AWSRuntime: eacbfc6d507e7057318c78d3ba22b2cab69494c2
 
 PODFILE CHECKSUM: 1e0ed43a108b7b233916302b192297ca82d3f81e
 

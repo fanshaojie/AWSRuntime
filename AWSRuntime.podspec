@@ -1,6 +1,6 @@
 Pod::Spec.new do |s|
   s.name             = 'AWSRuntime'
-  s.version          = '0.0.1'
+  s.version          = '0.0.2'
   s.summary          = 'AWSRuntime for my Company'
   s.description      = <<-DESC
 support aws sdk s3 path style

@@ -17,12 +17,12 @@
 #import "AmazonServiceException.h"
 #import "AmazonClientException.h"
 
+
+
 extern NSString *const AWSiOSSDKServiceErrorDomain;
 extern NSString *const AWSiOSSDKClientErrorDomain;
 
 @interface AmazonErrorHandler : NSObject
-{
-}
 
 + (void)shouldThrowExceptions __attribute__((deprecated));
 + (void)shouldNotThrowExceptions;
