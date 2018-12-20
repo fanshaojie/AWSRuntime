@@ -7,108 +7,110 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		0083C7429FEBBBD1D842240664C04891 /* AmazonValueUnmarshaller.m in Sources */ = {isa = PBXBuildFile; fileRef = 519BAA53B0480E6CF676F00C697CD4E1 /* AmazonValueUnmarshaller.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
-		025D7ACA6631680899546D6FBA434467 /* AWS_SBJsonStreamParserAccumulator.m in Sources */ = {isa = PBXBuildFile; fileRef = CCEF63F5A4A66957FCB53DAB69843E9A /* AWS_SBJsonStreamParserAccumulator.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
-		0D4D93434200B23CB9E0B20A1A1E6F0D /* AmazonValueUnmarshaller.h in Headers */ = {isa = PBXBuildFile; fileRef = BDA3E4AC5790E02477508D1F89BE6EF0 /* AmazonValueUnmarshaller.h */; settings = {ATTRIBUTES = (Project, ); }; };
-		0DFA6B84E02C3FF3C22F807D7C7D7A74 /* AmazonMD5Util.h in Headers */ = {isa = PBXBuildFile; fileRef = 1A2BCDFFE7881FBC964EE5CC7A9AA0AB /* AmazonMD5Util.h */; settings = {ATTRIBUTES = (Project, ); }; };
-		0E4B9FA1EFA25422E3CE6E8196512402 /* AmazonBoolValueUnmarshaller.h in Headers */ = {isa = PBXBuildFile; fileRef = 60667444676EA88D459FFE2F3F84664E /* AmazonBoolValueUnmarshaller.h */; settings = {ATTRIBUTES = (Project, ); }; };
-		0F6AB60643AF390B0DA57D4C075086BE /* AmazonEndpoints.h in Headers */ = {isa = PBXBuildFile; fileRef = 34B7787EE41D807E7BA8271ADAD6BF08 /* AmazonEndpoints.h */; settings = {ATTRIBUTES = (Project, ); }; };
-		11733915C4E38E3B01359CE6997A0369 /* AmazonAbstractJsonWebServiceClient.m in Sources */ = {isa = PBXBuildFile; fileRef = 0628F4A394DAFBA9797AEC6C74016940 /* AmazonAbstractJsonWebServiceClient.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
-		1420880CD7FD955484F23B524E3DE1E0 /* AmazonServiceExceptionUnmarshaller.m in Sources */ = {isa = PBXBuildFile; fileRef = 5EE2AE1FDBA452CA55B2750C49B658A9 /* AmazonServiceExceptionUnmarshaller.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
-		15F3522E956109815D2D92391DEA2A75 /* AWS_SBJsonUTF8Stream.h in Headers */ = {isa = PBXBuildFile; fileRef = B7B49AB92CD2201CAF6EB43DA4EEE471 /* AWS_SBJsonUTF8Stream.h */; settings = {ATTRIBUTES = (Project, ); }; };
-		1E3355538F9D7551C123702D5F20F95D /* AmazonDictionaryUnmarshaller.h in Headers */ = {isa = PBXBuildFile; fileRef = B5D38682070F23C08D2DA84ACDEAF3AF /* AmazonDictionaryUnmarshaller.h */; settings = {ATTRIBUTES = (Project, ); }; };
-		1E925837D0B87FF8B912A078900257B8 /* AmazonServiceExceptionUnmarshaller.h in Headers */ = {isa = PBXBuildFile; fileRef = 5BD8F810178A9CF573A9908BB6B2F6B3 /* AmazonServiceExceptionUnmarshaller.h */; settings = {ATTRIBUTES = (Project, ); }; };
-		1EF630BB0CCF6A23931E1F5528D76553 /* AWS_SBJsonStreamWriterState.m in Sources */ = {isa = PBXBuildFile; fileRef = 5D61EBE5834B5B24E609BCEC60003C2C /* AWS_SBJsonStreamWriterState.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
-		2258151154373A1D32E4D427C7766F2D /* AmazonRequestDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = AF8D654F2BB0D8143F803F5E0D17EECA /* AmazonRequestDelegate.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
-		2723B356DA95555B2BF10FD26F57764E /* AWS_SBJsonParser.m in Sources */ = {isa = PBXBuildFile; fileRef = DE046609BF45AAE422D0CE5481451E91 /* AWS_SBJsonParser.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
-		2C9CE8CD7BC73CF33CC6CD64F47AEEBE /* AWS_SBJsonStreamParser.m in Sources */ = {isa = PBXBuildFile; fileRef = 43F63EFDF030A304ABD1433EB2CE3C47 /* AWS_SBJsonStreamParser.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
-		3024ADCE2F009BCB913B1833A2F3C5B5 /* AWS_SBJsonWriter.m in Sources */ = {isa = PBXBuildFile; fileRef = 3ECDDC4CC9BEF873D8D1A0610375D86D /* AWS_SBJsonWriter.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
-		342D2F2B92F4F8B44B34318B29B397B3 /* Pods-AWSRuntime_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = FA68886D7C52A961D9C272C26075AC12 /* Pods-AWSRuntime_Tests-dummy.m */; };
-		350E97B583A4C3DBBD790FB442FC411C /* AWS_SBJsonStreamWriterState.h in Headers */ = {isa = PBXBuildFile; fileRef = E62CAEC4D3F99FB1B383E26A0458842A /* AWS_SBJsonStreamWriterState.h */; settings = {ATTRIBUTES = (Project, ); }; };
-		37365F0D0BB117FC92D1515287571849 /* AmazonServiceResponseUnmarshaller.h in Headers */ = {isa = PBXBuildFile; fileRef = 2BDFC4EC8AF090669F0891B3ED99F2B0 /* AmazonServiceResponseUnmarshaller.h */; settings = {ATTRIBUTES = (Project, ); }; };
-		388DEF7F96C227672EB3F885CF1FD325 /* AWS_SBJsonTokeniser.h in Headers */ = {isa = PBXBuildFile; fileRef = FF2419DE6C3657DD6BAA3930555A87D1 /* AWS_SBJsonTokeniser.h */; settings = {ATTRIBUTES = (Project, ); }; };
-		39F5A3D245BC50A104AC3A86C92F876F /* AmazonListUnmarshaller.m in Sources */ = {isa = PBXBuildFile; fileRef = 2FA0F43FDE84F5B6934A24A79C23913C /* AmazonListUnmarshaller.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
-		3AEE7E78EF320AAE6A4693C613879E16 /* AWS_SBJsonWriter.h in Headers */ = {isa = PBXBuildFile; fileRef = 3F331371ECC985D5D050C1336E881EBE /* AWS_SBJsonWriter.h */; settings = {ATTRIBUTES = (Project, ); }; };
-		3F586F521A05A6C59B9818AB1763581E /* AmazonSDKUtil.m in Sources */ = {isa = PBXBuildFile; fileRef = 7DE9A91BC43057534241D87EEFA9B81B /* AmazonSDKUtil.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
-		3F712BC6F61C7299CEC31133D35EC761 /* AWSRuntime.h in Headers */ = {isa = PBXBuildFile; fileRef = FCDB0849C8FB69363B234A0B0EDD570B /* AWSRuntime.h */; settings = {ATTRIBUTES = (Project, ); }; };
-		43067CF960C09DDC05A646133004D80E /* AmazonStaticCredentialsProvider.m in Sources */ = {isa = PBXBuildFile; fileRef = 9E882F613392C15246BC69FE6E9063AB /* AmazonStaticCredentialsProvider.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
-		500968E7B53DC1DD64228BB8B84581BC /* AWS_SBJson.h in Headers */ = {isa = PBXBuildFile; fileRef = 71BDBBB48ECB97EC3F0F28CCA334DA1D /* AWS_SBJson.h */; settings = {ATTRIBUTES = (Project, ); }; };
-		53A47079C21F0D6178647311097CA0A4 /* AmazonSignatureException.h in Headers */ = {isa = PBXBuildFile; fileRef = 554D5112428D11373317E5ED39D4EB39 /* AmazonSignatureException.h */; settings = {ATTRIBUTES = (Project, ); }; };
-		542C2D25B216B5A50957C23C03FAFDB6 /* AmazonBoolValueUnmarshaller.m in Sources */ = {isa = PBXBuildFile; fileRef = 31E5A5DC0F428F56B6A05DB5EDF86CE3 /* AmazonBoolValueUnmarshaller.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
-		5912B4612CFCDE2311125545CB06C9DD /* AmazonUnmarshallerXMLParserDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = CEE65EC59D448907C4E68855C258B9F7 /* AmazonUnmarshallerXMLParserDelegate.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
-		5CB524BF329378B5E046C49D85DD8C79 /* AmazonServiceException.h in Headers */ = {isa = PBXBuildFile; fileRef = FA781187B80EA1CC14EB00F318E5B779 /* AmazonServiceException.h */; settings = {ATTRIBUTES = (Project, ); }; };
-		626715C2A6F3315DF439664095969F39 /* AmazonSDKUtil.h in Headers */ = {isa = PBXBuildFile; fileRef = 5C9247AC4AA4E6A0D01947E0D4E82DB8 /* AmazonSDKUtil.h */; settings = {ATTRIBUTES = (Project, ); }; };
-		6C47F262DB40671D4D9C4EEA3F8285E6 /* AWS_SBJsonStreamParserState.h in Headers */ = {isa = PBXBuildFile; fileRef = EDF0DC7A19BFC7F24C37C5B0B4C822A6 /* AWS_SBJsonStreamParserState.h */; settings = {ATTRIBUTES = (Project, ); }; };
-		6E631FAD441318973B94B741754AC2B3 /* AmazonDictionaryUnmarshaller.m in Sources */ = {isa = PBXBuildFile; fileRef = 1C1D242CB66B469EC076464D181C799D /* AmazonDictionaryUnmarshaller.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
-		737CB94A9EDCDE9CDB5BB492492B8CDE /* AWS_SBJsonStreamWriterAccumulator.h in Headers */ = {isa = PBXBuildFile; fileRef = 97E94BEC4E78A08B295BECAE9A511CFC /* AWS_SBJsonStreamWriterAccumulator.h */; settings = {ATTRIBUTES = (Project, ); }; };
-		78BCCD66791D686AB4EF475094CC3DD3 /* AmazonServiceResponse.h in Headers */ = {isa = PBXBuildFile; fileRef = EFB93F55948099692F152431B4F35F4C /* AmazonServiceResponse.h */; settings = {ATTRIBUTES = (Project, ); }; };
-		7964ECD85419700B73CFD53BC7EF666D /* AWS_SBJsonUTF8Stream.m in Sources */ = {isa = PBXBuildFile; fileRef = D24D9BF9EA5C09647353950CFD958EA1 /* AWS_SBJsonUTF8Stream.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
-		7A153BD58BA1E8CE2325277C999BD80F /* AmazonSignatureException.m in Sources */ = {isa = PBXBuildFile; fileRef = 3975D1ED15D72E29F1F1A14AD64AC9E5 /* AmazonSignatureException.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
-		813987C6BABB1AD7E5A251B6637548A7 /* AmazonErrorHandler.m in Sources */ = {isa = PBXBuildFile; fileRef = 82133CC8007A0AF2B86B986E5BC02B77 /* AmazonErrorHandler.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
-		847158FA36221A53E3231E10BDDC4F1A /* AmazonJSON.m in Sources */ = {isa = PBXBuildFile; fileRef = AE1326EBF7D04F15FBAC283B108F012C /* AmazonJSON.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
-		8835B04989069EFB9209D909C543F236 /* AmazonErrorHandler.h in Headers */ = {isa = PBXBuildFile; fileRef = A5A0D1FE43B141551425369C34C93876 /* AmazonErrorHandler.h */; settings = {ATTRIBUTES = (Project, ); }; };
-		8998694021F652919605574ED63F8DF2 /* AWS_SBJsonStreamParserAdapter.h in Headers */ = {isa = PBXBuildFile; fileRef = 793AAB159E6825155FE9D5D858B06EAD /* AWS_SBJsonStreamParserAdapter.h */; settings = {ATTRIBUTES = (Project, ); }; };
-		8D566A05849CFE6AD3034499B3216060 /* AmazonAbstractJsonWebServiceClient.h in Headers */ = {isa = PBXBuildFile; fileRef = BF03D5D414A9E2BFCB14CAA2C6C2E98A /* AmazonAbstractJsonWebServiceClient.h */; settings = {ATTRIBUTES = (Project, ); }; };
-		905100009B34D18A8F92A3274E044A92 /* SBJson.h in Headers */ = {isa = PBXBuildFile; fileRef = 56FFB842C1419A1501FB8F0A27AD49C7 /* SBJson.h */; settings = {ATTRIBUTES = (Project, ); }; };
-		92B3135BC04FDD854678F6F406D0525F /* AmazonEndpoints.m in Sources */ = {isa = PBXBuildFile; fileRef = 2B4006977649C615C69B471D3D4F9789 /* AmazonEndpoints.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
-		94043801CACF831FE830E192B79C754E /* AWS_SBJsonStreamParserAccumulator.h in Headers */ = {isa = PBXBuildFile; fileRef = 7E1BBB270D8F771F393E8D72E4B892ED /* AWS_SBJsonStreamParserAccumulator.h */; settings = {ATTRIBUTES = (Project, ); }; };
-		9AB263C2B4D6EFAB724A03836678F936 /* AmazonUnmarshallerXMLParserDelegate.h in Headers */ = {isa = PBXBuildFile; fileRef = DB5B11BBBBF6AF35A92B04D1D1F09662 /* AmazonUnmarshallerXMLParserDelegate.h */; settings = {ATTRIBUTES = (Project, ); }; };
-		9BD4EFD8B9FFDA054F67E64470F15FC3 /* AmazonMD5Util.m in Sources */ = {isa = PBXBuildFile; fileRef = FF3D54318E588C3C35CDCE5B2DF47DD5 /* AmazonMD5Util.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
-		A2283F62BE81DC2614B2E32707FAAAE0 /* AmazonRequestDelegate.h in Headers */ = {isa = PBXBuildFile; fileRef = 49F654C679B446B8F3CF953C93FE37E5 /* AmazonRequestDelegate.h */; settings = {ATTRIBUTES = (Project, ); }; };
-		A6551F5085320D4B0C06BD7AE516B73F /* AmazonURLRequest.m in Sources */ = {isa = PBXBuildFile; fileRef = 5EFA841290E5C7C176F1A00EAFCA25FD /* AmazonURLRequest.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
-		A80F9B5087596B5ADB4714809560223C /* AmazonWebServiceClient.m in Sources */ = {isa = PBXBuildFile; fileRef = 23AC1F719F0931A7732B7EBED842E042 /* AmazonWebServiceClient.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
-		A928016A50EB6C2FBD7CD9AC099DCEA3 /* AmazonCredentials.m in Sources */ = {isa = PBXBuildFile; fileRef = 15B1B2576D3B14F7D1DA7AB43A2F9A7E /* AmazonCredentials.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
-		A942370F0A983F50CABB90CB5C6C246D /* AmazonServiceResponseUnmarshaller.m in Sources */ = {isa = PBXBuildFile; fileRef = 0393D2D29DC714E17459D399CD77B2B0 /* AmazonServiceResponseUnmarshaller.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
-		ADD30512033B8852B3E5F47D7570157C /* AmazonClientException.h in Headers */ = {isa = PBXBuildFile; fileRef = 037DD56BDE7EDD814C4A4FFB2B2CFEE4 /* AmazonClientException.h */; settings = {ATTRIBUTES = (Project, ); }; };
-		AE893393096FA0D9EB8CD660B48452F4 /* AmazonWebServiceClient.h in Headers */ = {isa = PBXBuildFile; fileRef = 6E74F4D4FC72C1936F69780587AA2B9B /* AmazonWebServiceClient.h */; settings = {ATTRIBUTES = (Project, ); }; };
-		B0BEE61271DAF057D92E1BCD89868DEC /* AmazonURLRequest.h in Headers */ = {isa = PBXBuildFile; fileRef = DBB14823AEAF874DE4D318E1584C468E /* AmazonURLRequest.h */; settings = {ATTRIBUTES = (Project, ); }; };
-		B48D080E1E750F89860B0F8F6510745A /* AmazonCredentials.h in Headers */ = {isa = PBXBuildFile; fileRef = 9C029D207DE35E6C6EA49E9908125889 /* AmazonCredentials.h */; settings = {ATTRIBUTES = (Project, ); }; };
-		B4B649FF55D00CA875AF84A9224BFE2C /* AmazonLogger.h in Headers */ = {isa = PBXBuildFile; fileRef = 7DC29CFF8095AD450534E8E7C10C4466 /* AmazonLogger.h */; settings = {ATTRIBUTES = (Project, ); }; };
-		B87A63339B52073953991C55F8667540 /* AmazonJSON.h in Headers */ = {isa = PBXBuildFile; fileRef = 5A1BD2566CBFDFCCCE7142737C60F274 /* AmazonJSON.h */; settings = {ATTRIBUTES = (Project, ); }; };
-		BBCB847FB609A01550ADB86A96B0278F /* LICENSE-2.0.txt in Sources */ = {isa = PBXBuildFile; fileRef = EF80463C89E4167DEE64E4BB9FBB3821 /* LICENSE-2.0.txt */; };
-		BE178465EBB1B297737AB9B203845AA0 /* AmazonServiceRequestConfig.h in Headers */ = {isa = PBXBuildFile; fileRef = 2667AA03831CB58F567B8F8D23470CD3 /* AmazonServiceRequestConfig.h */; settings = {ATTRIBUTES = (Project, ); }; };
-		C078BF1A9E4004E73EF64B5403ABAA0D /* AWS_SBJsonStreamParser.h in Headers */ = {isa = PBXBuildFile; fileRef = A5FC684D67B4CB6A0F8AE2A9A183018A /* AWS_SBJsonStreamParser.h */; settings = {ATTRIBUTES = (Project, ); }; };
-		C27E165B4300B7B8D2B73C0A49E67465 /* AmazonLogger.m in Sources */ = {isa = PBXBuildFile; fileRef = D4040BB9B57DD8A0EF256B4B306958C4 /* AmazonLogger.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
-		C3D34F2F4D42574AA4EC8143E8166EEA /* AmazonServiceRequest.h in Headers */ = {isa = PBXBuildFile; fileRef = 57C649F8A5B5B5CCF9E0B01A673D4CE7 /* AmazonServiceRequest.h */; settings = {ATTRIBUTES = (Project, ); }; };
-		C62055554F20C89C09AE16CF9F8AD1E4 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6914260C730B9DCB861D26731114A147 /* Foundation.framework */; };
-		C680ED1176F37C56439633BE939C2652 /* AWSRuntime-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = A7079750D08CBFBC3E9C766E0EEBC992 /* AWSRuntime-dummy.m */; };
-		C72DB71B13691EAA74C086ED3DAEC11C /* Pods-AWSRuntime_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 18E3E65711FE40688332237D066F2765 /* Pods-AWSRuntime_Example-dummy.m */; };
-		C7BE9372828E136A273D4D1CB50CEF09 /* AWS_SBJsonStreamWriter.m in Sources */ = {isa = PBXBuildFile; fileRef = 684F112BA02FD71D76E9F0FC29BCFCF3 /* AWS_SBJsonStreamWriter.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
-		C8672845F9B3D39DF7086B13E27FB2CA /* AWS_SBJsonStreamWriterAccumulator.m in Sources */ = {isa = PBXBuildFile; fileRef = B983724596C979865D5EE0186EC1519C /* AWS_SBJsonStreamWriterAccumulator.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
-		CAF8B32C1CD9DE7128F28AE2EF02CAE5 /* AmazonListUnmarshaller.h in Headers */ = {isa = PBXBuildFile; fileRef = EC01FE4F176604FA1E9C6FBF672645E2 /* AmazonListUnmarshaller.h */; settings = {ATTRIBUTES = (Project, ); }; };
-		CB69C3AA0D85248959663A17B1B29423 /* AmazonClientException.m in Sources */ = {isa = PBXBuildFile; fileRef = E197E7EF828546B1EAF923814CDD8A66 /* AmazonClientException.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
-		CF8D06B6D84A0D85227B6CEA557CF411 /* AWS_SBJsonParser.h in Headers */ = {isa = PBXBuildFile; fileRef = 8C28D8096FA743E06D308DD9E1B1037B /* AWS_SBJsonParser.h */; settings = {ATTRIBUTES = (Project, ); }; };
-		CF9C7A7A874D0C650E9E7196481DCC43 /* AWS_SBJsonStreamParserState.m in Sources */ = {isa = PBXBuildFile; fileRef = CC86AF53B0998A9690039D3CCEAD974E /* AWS_SBJsonStreamParserState.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
-		D825454722452CB4586F02FD8B79BA1A /* AWS_SBJsonStreamParserAdapter.m in Sources */ = {isa = PBXBuildFile; fileRef = C053DA217192A254EA051A57521E6F49 /* AWS_SBJsonStreamParserAdapter.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
-		D8477129B4DA0A19202B5D4DBD849833 /* AmazonAuthUtils.m in Sources */ = {isa = PBXBuildFile; fileRef = CD69DB66CA1C9A12B63FD0CF18B239D2 /* AmazonAuthUtils.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
-		DB222C6E15DEFE8F4849A108767DD34F /* AmazonServiceRequest.m in Sources */ = {isa = PBXBuildFile; fileRef = 12E213C3093FD0160809ADC248FF130C /* AmazonServiceRequest.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
-		DDE3269A4D8F7114834C88FFBB4369AE /* AmazonAuthUtils.h in Headers */ = {isa = PBXBuildFile; fileRef = C14E888F38831E5F50E7435AEF086F63 /* AmazonAuthUtils.h */; settings = {ATTRIBUTES = (Project, ); }; };
-		DE4F8A2185DDABE4D30ACE767EC0F48A /* AmazonServiceException.m in Sources */ = {isa = PBXBuildFile; fileRef = FEB200A011F54A142E3E9991714B83B9 /* AmazonServiceException.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
-		DEC01647053818EC3E3BA1911538A2C4 /* AmazonServiceResponse.m in Sources */ = {isa = PBXBuildFile; fileRef = 16B27BDD150E2EE95517B41ADBDD576A /* AmazonServiceResponse.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
-		E3F6B186701150DBBE2A14D09885BCFF /* AmazonStaticCredentialsProvider.h in Headers */ = {isa = PBXBuildFile; fileRef = 7E3C3BF49B89B2E72988734DC2617928 /* AmazonStaticCredentialsProvider.h */; settings = {ATTRIBUTES = (Project, ); }; };
-		E7CD3E989907B4A2D8A35301AF2AD21D /* AmazonCredentialsProvider.h in Headers */ = {isa = PBXBuildFile; fileRef = A6D1C07E744228804FD6DCAD383410DB /* AmazonCredentialsProvider.h */; settings = {ATTRIBUTES = (Project, ); }; };
-		EDC46024FBC6C955C3F4CA29588092FE /* AWS_SBJsonStreamWriter.h in Headers */ = {isa = PBXBuildFile; fileRef = 30BEB880AC462432691F046C3C87F7BA /* AWS_SBJsonStreamWriter.h */; settings = {ATTRIBUTES = (Project, ); }; };
-		F01B823DCC406A18419A038918ABAB47 /* MobileCoreServices.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B5524488AA8A75DFBBFD6236DE806001 /* MobileCoreServices.framework */; };
-		F43432FACDEEB5C42F87A72F580E6C9F /* AmazonServiceRequestConfig.m in Sources */ = {isa = PBXBuildFile; fileRef = CFA8526BCB8C69865E054CE0315C1A2C /* AmazonServiceRequestConfig.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
-		F47FA4DC1FF35FB33D28E456083CDE9A /* AmazonAbstractWebServiceClient.m in Sources */ = {isa = PBXBuildFile; fileRef = 7EB128557D7707132DAEB4CE2884C164 /* AmazonAbstractWebServiceClient.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
-		F5A3E5A44DA5BAEFDE9C8C6998EF405B /* AmazonAbstractWebServiceClient.h in Headers */ = {isa = PBXBuildFile; fileRef = AF2E1585DC58C03CF1B2C0CBB8CB81E6 /* AmazonAbstractWebServiceClient.h */; settings = {ATTRIBUTES = (Project, ); }; };
-		F93421C9D7322C63F7EBC7E4DE2ADB07 /* AWS_SBJsonTokeniser.m in Sources */ = {isa = PBXBuildFile; fileRef = C7AE9F1A5C6D03B62BBADE79D48B8635 /* AWS_SBJsonTokeniser.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		03A21CF709136A1637302F302F081748 /* AmazonServiceResponse.m in Sources */ = {isa = PBXBuildFile; fileRef = 16B27BDD150E2EE95517B41ADBDD576A /* AmazonServiceResponse.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		05EE25C0C07FCFBF35C19DE51E2C0CD2 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B3604A9C7D5707BC01BE9D32DF54FA40 /* Foundation.framework */; };
+		0674E599AAD28D2DDA7520C6683AB6E8 /* AmazonDictionaryUnmarshaller.h in Headers */ = {isa = PBXBuildFile; fileRef = B5D38682070F23C08D2DA84ACDEAF3AF /* AmazonDictionaryUnmarshaller.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		070D5711021AAD219EB40D30E285F867 /* AmazonRequestDelegate.h in Headers */ = {isa = PBXBuildFile; fileRef = 49F654C679B446B8F3CF953C93FE37E5 /* AmazonRequestDelegate.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		07136C6E4ED5C6D2FAC5ED7F894FFE1C /* AmazonSDKUtil.h in Headers */ = {isa = PBXBuildFile; fileRef = 5C9247AC4AA4E6A0D01947E0D4E82DB8 /* AmazonSDKUtil.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		0E896B55CD7199B8FD06487D239BCF27 /* AmazonCredentialsProvider.h in Headers */ = {isa = PBXBuildFile; fileRef = A6D1C07E744228804FD6DCAD383410DB /* AmazonCredentialsProvider.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		15797C7141280B3A3FCD9C72F6C5DEB2 /* AmazonEndpoints.m in Sources */ = {isa = PBXBuildFile; fileRef = 2B4006977649C615C69B471D3D4F9789 /* AmazonEndpoints.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		1753588C0BFC59666350BC25149D637E /* MobileCoreServices.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BBB4C4C4E8EBE672C1C7B6BAC6557C6E /* MobileCoreServices.framework */; };
+		1918222A881211E651923699FE5C7E3B /* AmazonLogger.h in Headers */ = {isa = PBXBuildFile; fileRef = 7DC29CFF8095AD450534E8E7C10C4466 /* AmazonLogger.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		1AEFADB459F3790F864D4AEF1C06022E /* AWS_SBJsonStreamParserState.m in Sources */ = {isa = PBXBuildFile; fileRef = CC86AF53B0998A9690039D3CCEAD974E /* AWS_SBJsonStreamParserState.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		1B3745141A1A79FA35A9FDF1ED517845 /* LICENSE-2.0.txt in Sources */ = {isa = PBXBuildFile; fileRef = EF80463C89E4167DEE64E4BB9FBB3821 /* LICENSE-2.0.txt */; };
+		1C2B0C80266640E2273FFEAC9A6CB18B /* AWS_SBJsonStreamWriterAccumulator.h in Headers */ = {isa = PBXBuildFile; fileRef = 97E94BEC4E78A08B295BECAE9A511CFC /* AWS_SBJsonStreamWriterAccumulator.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		1DAF2129E5F846CDF40E7C03F7AF7203 /* AWS_SBJsonTokeniser.h in Headers */ = {isa = PBXBuildFile; fileRef = FF2419DE6C3657DD6BAA3930555A87D1 /* AWS_SBJsonTokeniser.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		1DFFC1ED2B47100A1B90083C530BDBBE /* AmazonListUnmarshaller.h in Headers */ = {isa = PBXBuildFile; fileRef = EC01FE4F176604FA1E9C6FBF672645E2 /* AmazonListUnmarshaller.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		211668BF00EB8365987E5F6FA5C0EF9F /* AWS_SBJsonStreamWriterState.m in Sources */ = {isa = PBXBuildFile; fileRef = 5D61EBE5834B5B24E609BCEC60003C2C /* AWS_SBJsonStreamWriterState.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		2940AE3AEF95B843CF6A40D4957CAB88 /* AmazonDictionaryUnmarshaller.m in Sources */ = {isa = PBXBuildFile; fileRef = 1C1D242CB66B469EC076464D181C799D /* AmazonDictionaryUnmarshaller.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		2A7F4A23CDC262E6499EE64A99CFA930 /* AWS_SBJsonStreamWriterAccumulator.m in Sources */ = {isa = PBXBuildFile; fileRef = B983724596C979865D5EE0186EC1519C /* AWS_SBJsonStreamWriterAccumulator.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		2D5E1B45D2E2A4583177A2FAC66F6869 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B3604A9C7D5707BC01BE9D32DF54FA40 /* Foundation.framework */; };
+		2F11BFD9027A8345649A8FB6B7DC9AA8 /* AmazonAbstractJsonWebServiceClient.m in Sources */ = {isa = PBXBuildFile; fileRef = 0628F4A394DAFBA9797AEC6C74016940 /* AmazonAbstractJsonWebServiceClient.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		3095A3CA9984D865B59B97CF91EB9940 /* AmazonServiceRequestConfig.m in Sources */ = {isa = PBXBuildFile; fileRef = CFA8526BCB8C69865E054CE0315C1A2C /* AmazonServiceRequestConfig.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		312DFAE65B6F79814819C6A1615FDDC7 /* AmazonUnmarshallerXMLParserDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = CEE65EC59D448907C4E68855C258B9F7 /* AmazonUnmarshallerXMLParserDelegate.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		3180CAF8A9155456AF1E0FEBB6440B21 /* AmazonServiceExceptionUnmarshaller.h in Headers */ = {isa = PBXBuildFile; fileRef = 5BD8F810178A9CF573A9908BB6B2F6B3 /* AmazonServiceExceptionUnmarshaller.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		31B7356F7830C475E260A36D00AD7F02 /* AmazonValueUnmarshaller.m in Sources */ = {isa = PBXBuildFile; fileRef = 519BAA53B0480E6CF676F00C697CD4E1 /* AmazonValueUnmarshaller.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		3C130B2A048D7502B548B6025128FB1D /* AmazonWebServiceClient.m in Sources */ = {isa = PBXBuildFile; fileRef = 23AC1F719F0931A7732B7EBED842E042 /* AmazonWebServiceClient.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		3FC6550F91D05BA90872303BD56AAAAA /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B3604A9C7D5707BC01BE9D32DF54FA40 /* Foundation.framework */; };
+		4322EE8E7AD6007B5441AD0B63FDB438 /* AmazonAbstractJsonWebServiceClient.h in Headers */ = {isa = PBXBuildFile; fileRef = BF03D5D414A9E2BFCB14CAA2C6C2E98A /* AmazonAbstractJsonWebServiceClient.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		4995EEC0381C3FB8B7F47B06B2335B6A /* AmazonServiceRequest.m in Sources */ = {isa = PBXBuildFile; fileRef = 12E213C3093FD0160809ADC248FF130C /* AmazonServiceRequest.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		60A3027C34DF9E0FEC733C981633B383 /* Pods-AWSRuntime_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = FA68886D7C52A961D9C272C26075AC12 /* Pods-AWSRuntime_Tests-dummy.m */; };
+		627C7A400C5F325F00CC70BA7D380C3E /* AWS_SBJsonParser.m in Sources */ = {isa = PBXBuildFile; fileRef = DE046609BF45AAE422D0CE5481451E91 /* AWS_SBJsonParser.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		6465C12BC8F1F96DE8CF5A402BF6E05C /* AmazonServiceResponseUnmarshaller.m in Sources */ = {isa = PBXBuildFile; fileRef = 0393D2D29DC714E17459D399CD77B2B0 /* AmazonServiceResponseUnmarshaller.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		64BD465DD8059189686EC2E71F62B078 /* AmazonStaticCredentialsProvider.h in Headers */ = {isa = PBXBuildFile; fileRef = 7E3C3BF49B89B2E72988734DC2617928 /* AmazonStaticCredentialsProvider.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		67E39868D940CC51FBB3F11B21145543 /* AmazonClientException.m in Sources */ = {isa = PBXBuildFile; fileRef = E197E7EF828546B1EAF923814CDD8A66 /* AmazonClientException.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		68D0F0B757A71FA2E0C346D68A5F0320 /* AWS_SBJsonStreamParserState.h in Headers */ = {isa = PBXBuildFile; fileRef = EDF0DC7A19BFC7F24C37C5B0B4C822A6 /* AWS_SBJsonStreamParserState.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		6D9C6958A8517107EB7A8A7C1669B997 /* AWS_SBJsonStreamParserAccumulator.h in Headers */ = {isa = PBXBuildFile; fileRef = 7E1BBB270D8F771F393E8D72E4B892ED /* AWS_SBJsonStreamParserAccumulator.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		766C78BAA0736F10D191EFC88F332A77 /* AmazonErrorHandler.m in Sources */ = {isa = PBXBuildFile; fileRef = 82133CC8007A0AF2B86B986E5BC02B77 /* AmazonErrorHandler.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		777286780DD1A3697FCA7855966C1FA8 /* AWS_SBJsonWriter.m in Sources */ = {isa = PBXBuildFile; fileRef = 3ECDDC4CC9BEF873D8D1A0610375D86D /* AWS_SBJsonWriter.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		7796A5FD48C5FBAD24D308DA1C232CFF /* AmazonMD5Util.m in Sources */ = {isa = PBXBuildFile; fileRef = FF3D54318E588C3C35CDCE5B2DF47DD5 /* AmazonMD5Util.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		8075A0292D357B4A8932C8A2B8AE9B4B /* AWS_SBJsonStreamWriter.m in Sources */ = {isa = PBXBuildFile; fileRef = 684F112BA02FD71D76E9F0FC29BCFCF3 /* AWS_SBJsonStreamWriter.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		826DB94E82C66D81029A3335AA7BDFAE /* AmazonServiceRequest.h in Headers */ = {isa = PBXBuildFile; fileRef = 57C649F8A5B5B5CCF9E0B01A673D4CE7 /* AmazonServiceRequest.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		84108D9377E73B35F06CB2E470E7917C /* AWSRuntime.h in Headers */ = {isa = PBXBuildFile; fileRef = FCDB0849C8FB69363B234A0B0EDD570B /* AWSRuntime.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		89C0E9300CF57284624EC4734BE52ADF /* AWSRuntime-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = A7079750D08CBFBC3E9C766E0EEBC992 /* AWSRuntime-dummy.m */; };
+		8F3C59E4CFDF352E73BF8A641F0AB2AE /* AWS_SBJsonStreamParserAccumulator.m in Sources */ = {isa = PBXBuildFile; fileRef = CCEF63F5A4A66957FCB53DAB69843E9A /* AWS_SBJsonStreamParserAccumulator.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		91FBF4A9548BB2877DF9546AD8194BAA /* AmazonAbstractWebServiceClient.m in Sources */ = {isa = PBXBuildFile; fileRef = 7EB128557D7707132DAEB4CE2884C164 /* AmazonAbstractWebServiceClient.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		9218A6FB4AD97B71363F9F9D73AD901D /* AWS_SBJsonStreamParser.h in Headers */ = {isa = PBXBuildFile; fileRef = A5FC684D67B4CB6A0F8AE2A9A183018A /* AWS_SBJsonStreamParser.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		9731E56F4F320E177C83E7ACB1DBFB0E /* AmazonErrorHandler.h in Headers */ = {isa = PBXBuildFile; fileRef = A5A0D1FE43B141551425369C34C93876 /* AmazonErrorHandler.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		9E7A175600B1B5E95BB7F2B99BD77BA4 /* AmazonRequestDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = AF8D654F2BB0D8143F803F5E0D17EECA /* AmazonRequestDelegate.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		9F43ACAD9E97D8B39A0E1DCEE4D19CDA /* AmazonJSON.h in Headers */ = {isa = PBXBuildFile; fileRef = 5A1BD2566CBFDFCCCE7142737C60F274 /* AmazonJSON.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		9FB7DB3B490B591D3A8633E00D6D612B /* AmazonAbstractWebServiceClient.h in Headers */ = {isa = PBXBuildFile; fileRef = AF2E1585DC58C03CF1B2C0CBB8CB81E6 /* AmazonAbstractWebServiceClient.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		A168C74EB3527E1B0D821B490EE53B9E /* AmazonLogger.m in Sources */ = {isa = PBXBuildFile; fileRef = D4040BB9B57DD8A0EF256B4B306958C4 /* AmazonLogger.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		A403B4E7820DB9A6C8C4C9FA3C581366 /* AmazonURLRequest.m in Sources */ = {isa = PBXBuildFile; fileRef = 5EFA841290E5C7C176F1A00EAFCA25FD /* AmazonURLRequest.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		A9D053DBA756B6C9C4AC14190A87171A /* AmazonBoolValueUnmarshaller.h in Headers */ = {isa = PBXBuildFile; fileRef = 60667444676EA88D459FFE2F3F84664E /* AmazonBoolValueUnmarshaller.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		A9FB28A3C2ECDD23117371B74FCD362C /* AmazonServiceRequestConfig.h in Headers */ = {isa = PBXBuildFile; fileRef = 2667AA03831CB58F567B8F8D23470CD3 /* AmazonServiceRequestConfig.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		AF793EDED293D679BCD2A0D956AEDAB0 /* AWS_SBJsonUTF8Stream.m in Sources */ = {isa = PBXBuildFile; fileRef = D24D9BF9EA5C09647353950CFD958EA1 /* AWS_SBJsonUTF8Stream.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		AFA055C2E94A074C41ECE9EC426B75FC /* AmazonBoolValueUnmarshaller.m in Sources */ = {isa = PBXBuildFile; fileRef = 31E5A5DC0F428F56B6A05DB5EDF86CE3 /* AmazonBoolValueUnmarshaller.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		B0620087DD07335091C2A65715FFE133 /* AmazonServiceException.h in Headers */ = {isa = PBXBuildFile; fileRef = FA781187B80EA1CC14EB00F318E5B779 /* AmazonServiceException.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		B5A86FD4A70DFFFA3AB61B0F477F59D7 /* AmazonServiceResponseUnmarshaller.h in Headers */ = {isa = PBXBuildFile; fileRef = 2BDFC4EC8AF090669F0891B3ED99F2B0 /* AmazonServiceResponseUnmarshaller.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		B72C89E7980E312BC26D836B2C66F719 /* AmazonURLRequest.h in Headers */ = {isa = PBXBuildFile; fileRef = DBB14823AEAF874DE4D318E1584C468E /* AmazonURLRequest.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		B761B5D5B65FE31A069DA16FC6F99CF2 /* AmazonCredentials.h in Headers */ = {isa = PBXBuildFile; fileRef = 9C029D207DE35E6C6EA49E9908125889 /* AmazonCredentials.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		B946AD5695D7A485E06543A9102F6994 /* AmazonEndpoints.h in Headers */ = {isa = PBXBuildFile; fileRef = 34B7787EE41D807E7BA8271ADAD6BF08 /* AmazonEndpoints.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		BD52F381E684EE83699D832D63A5FD41 /* Pods-AWSRuntime_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 18E3E65711FE40688332237D066F2765 /* Pods-AWSRuntime_Example-dummy.m */; };
+		BE032A3E91F65AA862A69A247B8769F6 /* AWS_SBJsonStreamWriter.h in Headers */ = {isa = PBXBuildFile; fileRef = 30BEB880AC462432691F046C3C87F7BA /* AWS_SBJsonStreamWriter.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		C0D19D2CA165FB9CE034B05054BD3863 /* AmazonSignatureException.m in Sources */ = {isa = PBXBuildFile; fileRef = 3975D1ED15D72E29F1F1A14AD64AC9E5 /* AmazonSignatureException.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		C2A36BF22B404A894C79544201734B6A /* AWS_SBJsonStreamParserAdapter.h in Headers */ = {isa = PBXBuildFile; fileRef = 793AAB159E6825155FE9D5D858B06EAD /* AWS_SBJsonStreamParserAdapter.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		C5E52C341787C2FF6DDF79EE04F392AB /* AmazonServiceResponse.h in Headers */ = {isa = PBXBuildFile; fileRef = EFB93F55948099692F152431B4F35F4C /* AmazonServiceResponse.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		C737CAACE9886D0E23AF5977E4FF6344 /* AmazonSignatureException.h in Headers */ = {isa = PBXBuildFile; fileRef = 554D5112428D11373317E5ED39D4EB39 /* AmazonSignatureException.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		C9E914B20733DB38CFE78FF468149CED /* AWS_SBJsonParser.h in Headers */ = {isa = PBXBuildFile; fileRef = 8C28D8096FA743E06D308DD9E1B1037B /* AWS_SBJsonParser.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		CAE242603CEC134880867E165FCFD499 /* AmazonSDKUtil.m in Sources */ = {isa = PBXBuildFile; fileRef = 7DE9A91BC43057534241D87EEFA9B81B /* AmazonSDKUtil.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		CB584E5BC9EF71C1DE7B6A056DBB85CA /* AmazonMD5Util.h in Headers */ = {isa = PBXBuildFile; fileRef = 1A2BCDFFE7881FBC964EE5CC7A9AA0AB /* AmazonMD5Util.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		CD259851679AF283B9147DC3588F5804 /* AmazonAuthUtils.h in Headers */ = {isa = PBXBuildFile; fileRef = C14E888F38831E5F50E7435AEF086F63 /* AmazonAuthUtils.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		CDD402EF4282665EDDC6B9CFA323B3A8 /* AmazonCredentials.m in Sources */ = {isa = PBXBuildFile; fileRef = 15B1B2576D3B14F7D1DA7AB43A2F9A7E /* AmazonCredentials.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		CF19ECE8774FC5BE12615FB0C360DA76 /* AWS_SBJsonStreamWriterState.h in Headers */ = {isa = PBXBuildFile; fileRef = E62CAEC4D3F99FB1B383E26A0458842A /* AWS_SBJsonStreamWriterState.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		CFF5A2220CF68389A2212EAB6D1BE523 /* AWS_SBJson.h in Headers */ = {isa = PBXBuildFile; fileRef = 71BDBBB48ECB97EC3F0F28CCA334DA1D /* AWS_SBJson.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		D0AAF64E90E59CA269156669C6F66CC8 /* AmazonServiceException.m in Sources */ = {isa = PBXBuildFile; fileRef = FEB200A011F54A142E3E9991714B83B9 /* AmazonServiceException.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		D4547E51F7CA61B440F7EB30C21AE1A7 /* AmazonUnmarshallerXMLParserDelegate.h in Headers */ = {isa = PBXBuildFile; fileRef = DB5B11BBBBF6AF35A92B04D1D1F09662 /* AmazonUnmarshallerXMLParserDelegate.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		D71E5D9376EE12A9DC5936D4DC0258F1 /* SBJson.h in Headers */ = {isa = PBXBuildFile; fileRef = 56FFB842C1419A1501FB8F0A27AD49C7 /* SBJson.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		D942E34C4CD5546E427BC821FB3E93DC /* AmazonStaticCredentialsProvider.m in Sources */ = {isa = PBXBuildFile; fileRef = 9E882F613392C15246BC69FE6E9063AB /* AmazonStaticCredentialsProvider.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		D9F2B19E1A7E5381FA68159EC7C93A3F /* AWS_SBJsonTokeniser.m in Sources */ = {isa = PBXBuildFile; fileRef = C7AE9F1A5C6D03B62BBADE79D48B8635 /* AWS_SBJsonTokeniser.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		DEAAE2976D8CDE478A00AA157CAC33D0 /* AWS_SBJsonWriter.h in Headers */ = {isa = PBXBuildFile; fileRef = 3F331371ECC985D5D050C1336E881EBE /* AWS_SBJsonWriter.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		DFB1C166D5F14178D79CC8B517976F83 /* AmazonValueUnmarshaller.h in Headers */ = {isa = PBXBuildFile; fileRef = BDA3E4AC5790E02477508D1F89BE6EF0 /* AmazonValueUnmarshaller.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		E058CA95226F6A42D49433395D526409 /* AmazonWebServiceClient.h in Headers */ = {isa = PBXBuildFile; fileRef = 6E74F4D4FC72C1936F69780587AA2B9B /* AmazonWebServiceClient.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		E60D506AF6F59A0ED25A1FD8D9ECCBC9 /* AWS_SBJsonStreamParser.m in Sources */ = {isa = PBXBuildFile; fileRef = 43F63EFDF030A304ABD1433EB2CE3C47 /* AWS_SBJsonStreamParser.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		E688B8BE4D1830B200C762AC26D0EE5B /* AmazonServiceExceptionUnmarshaller.m in Sources */ = {isa = PBXBuildFile; fileRef = 5EE2AE1FDBA452CA55B2750C49B658A9 /* AmazonServiceExceptionUnmarshaller.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		E7EB22D7037C542687EA8080CAF53E55 /* AmazonClientException.h in Headers */ = {isa = PBXBuildFile; fileRef = 037DD56BDE7EDD814C4A4FFB2B2CFEE4 /* AmazonClientException.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		EB7D0FDAA5AA915F07783A755B9482F0 /* AWS_SBJsonUTF8Stream.h in Headers */ = {isa = PBXBuildFile; fileRef = B7B49AB92CD2201CAF6EB43DA4EEE471 /* AWS_SBJsonUTF8Stream.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		F23A741544F31B82186C4EF2893895C1 /* AWS_SBJsonStreamParserAdapter.m in Sources */ = {isa = PBXBuildFile; fileRef = C053DA217192A254EA051A57521E6F49 /* AWS_SBJsonStreamParserAdapter.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		F272969FF7F131EF274B2BA9AAE6A43B /* AmazonJSON.m in Sources */ = {isa = PBXBuildFile; fileRef = AE1326EBF7D04F15FBAC283B108F012C /* AmazonJSON.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		F7F1DB392AAE45D67FB2903BCD4EF2E6 /* AmazonAuthUtils.m in Sources */ = {isa = PBXBuildFile; fileRef = CD69DB66CA1C9A12B63FD0CF18B239D2 /* AmazonAuthUtils.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		F95C5050DC30C069972705D73198B609 /* AmazonListUnmarshaller.m in Sources */ = {isa = PBXBuildFile; fileRef = 2FA0F43FDE84F5B6934A24A79C23913C /* AmazonListUnmarshaller.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
-		2DD00064A2597A42ABFCCCEC4EBD1992 /* PBXContainerItemProxy */ = {
+		BEC534912722610486D56238A650D630 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = AEEA534696741976F9AE3B4A4D152CA0;
-			remoteInfo = AWSRuntime;
-		};
-		9FA42982B0EB24CFDABDC5E379C92485 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = A58791E98C99C64F31A509C9553316D4;
+			remoteGlobalIDString = 0984F16F832429CB6D556727E0168C8C;
 			remoteInfo = "Pods-AWSRuntime_Example";
+		};
+		F365630F9A00BB830395BE3C97462743 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 1B057DD5B0E49F65CFBAF85136F94ECB;
+			remoteInfo = AWSRuntime;
 		};
 /* End PBXContainerItemProxy section */
 
@@ -127,7 +129,7 @@
 		2112379ECDA5610232533F8E55C63D29 /* Pods-AWSRuntime_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-AWSRuntime_Example-acknowledgements.plist"; sourceTree = "<group>"; };
 		23AC1F719F0931A7732B7EBED842E042 /* AmazonWebServiceClient.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = AmazonWebServiceClient.m; sourceTree = "<group>"; };
 		25790879990436C0BD38AE158AD003E6 /* Pods-AWSRuntime_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-AWSRuntime_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
-		265E350FC3C91143280D3FAB574C2E78 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
+		265E350FC3C91143280D3FAB574C2E78 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
 		2667AA03831CB58F567B8F8D23470CD3 /* AmazonServiceRequestConfig.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = AmazonServiceRequestConfig.h; sourceTree = "<group>"; };
 		2B4006977649C615C69B471D3D4F9789 /* AmazonEndpoints.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = AmazonEndpoints.m; sourceTree = "<group>"; };
 		2BDFC4EC8AF090669F0891B3ED99F2B0 /* AmazonServiceResponseUnmarshaller.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = AmazonServiceResponseUnmarshaller.h; sourceTree = "<group>"; };
@@ -139,7 +141,7 @@
 		347F73F40BAD9C31092BA5EF780B7432 /* Pods-AWSRuntime_Tests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-AWSRuntime_Tests-frameworks.sh"; sourceTree = "<group>"; };
 		34B7787EE41D807E7BA8271ADAD6BF08 /* AmazonEndpoints.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = AmazonEndpoints.h; sourceTree = "<group>"; };
 		3975D1ED15D72E29F1F1A14AD64AC9E5 /* AmazonSignatureException.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = AmazonSignatureException.m; sourceTree = "<group>"; };
-		3AF94969337B16E5ED7A6031CFE85983 /* libPods-AWSRuntime_Tests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-AWSRuntime_Tests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		3AF94969337B16E5ED7A6031CFE85983 /* libPods-AWSRuntime_Tests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; name = "libPods-AWSRuntime_Tests.a"; path = "libPods-AWSRuntime_Tests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		3ECDDC4CC9BEF873D8D1A0610375D86D /* AWS_SBJsonWriter.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = AWS_SBJsonWriter.m; sourceTree = "<group>"; };
 		3F331371ECC985D5D050C1336E881EBE /* AWS_SBJsonWriter.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = AWS_SBJsonWriter.h; sourceTree = "<group>"; };
 		43F63EFDF030A304ABD1433EB2CE3C47 /* AWS_SBJsonStreamParser.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = AWS_SBJsonStreamParser.m; sourceTree = "<group>"; };
@@ -157,9 +159,8 @@
 		5EE2AE1FDBA452CA55B2750C49B658A9 /* AmazonServiceExceptionUnmarshaller.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = AmazonServiceExceptionUnmarshaller.m; sourceTree = "<group>"; };
 		5EFA841290E5C7C176F1A00EAFCA25FD /* AmazonURLRequest.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = AmazonURLRequest.m; sourceTree = "<group>"; };
 		60667444676EA88D459FFE2F3F84664E /* AmazonBoolValueUnmarshaller.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = AmazonBoolValueUnmarshaller.h; sourceTree = "<group>"; };
-		62B1A779B1D7078DE30B96E0323A2221 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = LICENSE; sourceTree = "<group>"; };
+		62B1A779B1D7078DE30B96E0323A2221 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE; sourceTree = "<group>"; };
 		684F112BA02FD71D76E9F0FC29BCFCF3 /* AWS_SBJsonStreamWriter.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = AWS_SBJsonStreamWriter.m; sourceTree = "<group>"; };
-		6914260C730B9DCB861D26731114A147 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
 		6E74F4D4FC72C1936F69780587AA2B9B /* AmazonWebServiceClient.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = AmazonWebServiceClient.h; sourceTree = "<group>"; };
 		71BDBBB48ECB97EC3F0F28CCA334DA1D /* AWS_SBJson.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = AWS_SBJson.h; sourceTree = "<group>"; };
 		793AAB159E6825155FE9D5D858B06EAD /* AWS_SBJsonStreamParserAdapter.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = AWS_SBJsonStreamParserAdapter.h; sourceTree = "<group>"; };
@@ -172,10 +173,10 @@
 		829B34E26F896676B4230A3C4BC82630 /* Pods-AWSRuntime_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-AWSRuntime_Example.debug.xcconfig"; sourceTree = "<group>"; };
 		84DE1F92073D3DBFA205E03B2B6A31E2 /* Pods-AWSRuntime_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-AWSRuntime_Tests.release.xcconfig"; sourceTree = "<group>"; };
 		8C28D8096FA743E06D308DD9E1B1037B /* AWS_SBJsonParser.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = AWS_SBJsonParser.h; sourceTree = "<group>"; };
-		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		97E94BEC4E78A08B295BECAE9A511CFC /* AWS_SBJsonStreamWriterAccumulator.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = AWS_SBJsonStreamWriterAccumulator.h; sourceTree = "<group>"; };
 		9C029D207DE35E6C6EA49E9908125889 /* AmazonCredentials.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = AmazonCredentials.h; sourceTree = "<group>"; };
-		9E3429D78A941CFD6C39F0547DB9B188 /* AWSRuntime.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; path = AWSRuntime.podspec; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		9E3429D78A941CFD6C39F0547DB9B188 /* AWSRuntime.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; path = AWSRuntime.podspec; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		9E882F613392C15246BC69FE6E9063AB /* AmazonStaticCredentialsProvider.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = AmazonStaticCredentialsProvider.m; sourceTree = "<group>"; };
 		A5A0D1FE43B141551425369C34C93876 /* AmazonErrorHandler.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = AmazonErrorHandler.h; sourceTree = "<group>"; };
 		A5FC684D67B4CB6A0F8AE2A9A183018A /* AWS_SBJsonStreamParser.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = AWS_SBJsonStreamParser.h; sourceTree = "<group>"; };
@@ -184,10 +185,11 @@
 		AE1326EBF7D04F15FBAC283B108F012C /* AmazonJSON.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = AmazonJSON.m; sourceTree = "<group>"; };
 		AF2E1585DC58C03CF1B2C0CBB8CB81E6 /* AmazonAbstractWebServiceClient.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = AmazonAbstractWebServiceClient.h; sourceTree = "<group>"; };
 		AF8D654F2BB0D8143F803F5E0D17EECA /* AmazonRequestDelegate.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = AmazonRequestDelegate.m; sourceTree = "<group>"; };
-		B5524488AA8A75DFBBFD6236DE806001 /* MobileCoreServices.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MobileCoreServices.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.0.sdk/System/Library/Frameworks/MobileCoreServices.framework; sourceTree = DEVELOPER_DIR; };
+		B3604A9C7D5707BC01BE9D32DF54FA40 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.3.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
 		B5D38682070F23C08D2DA84ACDEAF3AF /* AmazonDictionaryUnmarshaller.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = AmazonDictionaryUnmarshaller.h; sourceTree = "<group>"; };
 		B7B49AB92CD2201CAF6EB43DA4EEE471 /* AWS_SBJsonUTF8Stream.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = AWS_SBJsonUTF8Stream.h; sourceTree = "<group>"; };
 		B983724596C979865D5EE0186EC1519C /* AWS_SBJsonStreamWriterAccumulator.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = AWS_SBJsonStreamWriterAccumulator.m; sourceTree = "<group>"; };
+		BBB4C4C4E8EBE672C1C7B6BAC6557C6E /* MobileCoreServices.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MobileCoreServices.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.3.sdk/System/Library/Frameworks/MobileCoreServices.framework; sourceTree = DEVELOPER_DIR; };
 		BDA3E4AC5790E02477508D1F89BE6EF0 /* AmazonValueUnmarshaller.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = AmazonValueUnmarshaller.h; sourceTree = "<group>"; };
 		BF03D5D414A9E2BFCB14CAA2C6C2E98A /* AmazonAbstractJsonWebServiceClient.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = AmazonAbstractJsonWebServiceClient.h; sourceTree = "<group>"; };
 		C053DA217192A254EA051A57521E6F49 /* AWS_SBJsonStreamParserAdapter.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = AWS_SBJsonStreamParserAdapter.m; sourceTree = "<group>"; };
@@ -207,15 +209,15 @@
 		DE046609BF45AAE422D0CE5481451E91 /* AWS_SBJsonParser.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = AWS_SBJsonParser.m; sourceTree = "<group>"; };
 		DED52BA6384C66D617CFFC361496F3BA /* Pods-AWSRuntime_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-AWSRuntime_Example-frameworks.sh"; sourceTree = "<group>"; };
 		E197E7EF828546B1EAF923814CDD8A66 /* AmazonClientException.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = AmazonClientException.m; sourceTree = "<group>"; };
-		E2AD1FDF27EF62C973230A0F6F96AE33 /* libPods-AWSRuntime_Example.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-AWSRuntime_Example.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		E2AD1FDF27EF62C973230A0F6F96AE33 /* libPods-AWSRuntime_Example.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; name = "libPods-AWSRuntime_Example.a"; path = "libPods-AWSRuntime_Example.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		E62CAEC4D3F99FB1B383E26A0458842A /* AWS_SBJsonStreamWriterState.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = AWS_SBJsonStreamWriterState.h; sourceTree = "<group>"; };
 		EC01FE4F176604FA1E9C6FBF672645E2 /* AmazonListUnmarshaller.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = AmazonListUnmarshaller.h; sourceTree = "<group>"; };
 		EDF0DC7A19BFC7F24C37C5B0B4C822A6 /* AWS_SBJsonStreamParserState.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = AWS_SBJsonStreamParserState.h; sourceTree = "<group>"; };
-		EF80463C89E4167DEE64E4BB9FBB3821 /* LICENSE-2.0.txt */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "LICENSE-2.0.txt"; sourceTree = "<group>"; };
+		EF80463C89E4167DEE64E4BB9FBB3821 /* LICENSE-2.0.txt */ = {isa = PBXFileReference; includeInIndex = 1; path = "LICENSE-2.0.txt"; sourceTree = "<group>"; };
 		EFB93F55948099692F152431B4F35F4C /* AmazonServiceResponse.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = AmazonServiceResponse.h; sourceTree = "<group>"; };
 		FA68886D7C52A961D9C272C26075AC12 /* Pods-AWSRuntime_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-AWSRuntime_Tests-dummy.m"; sourceTree = "<group>"; };
 		FA781187B80EA1CC14EB00F318E5B779 /* AmazonServiceException.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = AmazonServiceException.h; sourceTree = "<group>"; };
-		FAA61C033412AEB7F407E7038C438C5C /* libAWSRuntime.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libAWSRuntime.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		FAA61C033412AEB7F407E7038C438C5C /* libAWSRuntime.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; name = libAWSRuntime.a; path = libAWSRuntime.a; sourceTree = BUILT_PRODUCTS_DIR; };
 		FCDB0849C8FB69363B234A0B0EDD570B /* AWSRuntime.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = AWSRuntime.h; sourceTree = "<group>"; };
 		FEB200A011F54A142E3E9991714B83B9 /* AmazonServiceException.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = AmazonServiceException.m; sourceTree = "<group>"; };
 		FF2419DE6C3657DD6BAA3930555A87D1 /* AWS_SBJsonTokeniser.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = AWS_SBJsonTokeniser.h; sourceTree = "<group>"; };
@@ -223,26 +225,28 @@
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		590E32D2E41A28D224AE73FCBDB15710 /* Frameworks */ = {
+		5FBCEC39A7BE0A72C3361B6C3D6DA11F /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				05EE25C0C07FCFBF35C19DE51E2C0CD2 /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		7D99FEC1486541F05756E0D4FFD462A5 /* Frameworks */ = {
+		AA165DF6712AE4DB422A3710755948D6 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				2D5E1B45D2E2A4583177A2FAC66F6869 /* Foundation.framework in Frameworks */,
+				1753588C0BFC59666350BC25149D637E /* MobileCoreServices.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		D3F8C5A9F900F06AA69C9B1DEEB808AE /* Frameworks */ = {
+		EF13209F54C2C0E0A2F5E3CA4FED1137 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				C62055554F20C89C09AE16CF9F8AD1E4 /* Foundation.framework in Frameworks */,
-				F01B823DCC406A18419A038918ABAB47 /* MobileCoreServices.framework in Frameworks */,
+				3FC6550F91D05BA90872303BD56AAAAA /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -259,6 +263,15 @@
 			);
 			name = AWSRuntime;
 			path = ../..;
+			sourceTree = "<group>";
+		};
+		18C2EEA14ADC59EF04FBF54C135C2280 /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				B3604A9C7D5707BC01BE9D32DF54FA40 /* Foundation.framework */,
+				BBB4C4C4E8EBE672C1C7B6BAC6557C6E /* MobileCoreServices.framework */,
+			);
+			name = iOS;
 			sourceTree = "<group>";
 		};
 		1EFF010ABCFD63D6E96EF04388BF387B /* Products */ = {
@@ -289,7 +302,7 @@
 		433CD3331B6C3787F473C941B61FC68F /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				E582F482C8444F9DA76D3DCBBF81CA16 /* iOS */,
+				18C2EEA14ADC59EF04FBF54C135C2280 /* iOS */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -363,6 +376,7 @@
 				3ECDDC4CC9BEF873D8D1A0610375D86D /* AWS_SBJsonWriter.m */,
 				56FFB842C1419A1501FB8F0A27AD49C7 /* SBJson.h */,
 			);
+			name = JSON;
 			path = JSON;
 			sourceTree = "<group>";
 		};
@@ -463,109 +477,85 @@
 			path = AWSRuntime/Classes/Amazon.Runtime;
 			sourceTree = "<group>";
 		};
-		E582F482C8444F9DA76D3DCBBF81CA16 /* iOS */ = {
-			isa = PBXGroup;
-			children = (
-				6914260C730B9DCB861D26731114A147 /* Foundation.framework */,
-				B5524488AA8A75DFBBFD6236DE806001 /* MobileCoreServices.framework */,
-			);
-			name = iOS;
-			sourceTree = "<group>";
-		};
 /* End PBXGroup section */
 
 /* Begin PBXHeadersBuildPhase section */
-		28AD4540A42C6305AAEF045893550E29 /* Headers */ = {
+		ED1CC24476EFB39DA879768FD394D23D /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				8D566A05849CFE6AD3034499B3216060 /* AmazonAbstractJsonWebServiceClient.h in Headers */,
-				F5A3E5A44DA5BAEFDE9C8C6998EF405B /* AmazonAbstractWebServiceClient.h in Headers */,
-				DDE3269A4D8F7114834C88FFBB4369AE /* AmazonAuthUtils.h in Headers */,
-				0E4B9FA1EFA25422E3CE6E8196512402 /* AmazonBoolValueUnmarshaller.h in Headers */,
-				ADD30512033B8852B3E5F47D7570157C /* AmazonClientException.h in Headers */,
-				B48D080E1E750F89860B0F8F6510745A /* AmazonCredentials.h in Headers */,
-				E7CD3E989907B4A2D8A35301AF2AD21D /* AmazonCredentialsProvider.h in Headers */,
-				1E3355538F9D7551C123702D5F20F95D /* AmazonDictionaryUnmarshaller.h in Headers */,
-				0F6AB60643AF390B0DA57D4C075086BE /* AmazonEndpoints.h in Headers */,
-				8835B04989069EFB9209D909C543F236 /* AmazonErrorHandler.h in Headers */,
-				B87A63339B52073953991C55F8667540 /* AmazonJSON.h in Headers */,
-				CAF8B32C1CD9DE7128F28AE2EF02CAE5 /* AmazonListUnmarshaller.h in Headers */,
-				B4B649FF55D00CA875AF84A9224BFE2C /* AmazonLogger.h in Headers */,
-				0DFA6B84E02C3FF3C22F807D7C7D7A74 /* AmazonMD5Util.h in Headers */,
-				A2283F62BE81DC2614B2E32707FAAAE0 /* AmazonRequestDelegate.h in Headers */,
-				626715C2A6F3315DF439664095969F39 /* AmazonSDKUtil.h in Headers */,
-				5CB524BF329378B5E046C49D85DD8C79 /* AmazonServiceException.h in Headers */,
-				1E925837D0B87FF8B912A078900257B8 /* AmazonServiceExceptionUnmarshaller.h in Headers */,
-				C3D34F2F4D42574AA4EC8143E8166EEA /* AmazonServiceRequest.h in Headers */,
-				BE178465EBB1B297737AB9B203845AA0 /* AmazonServiceRequestConfig.h in Headers */,
-				78BCCD66791D686AB4EF475094CC3DD3 /* AmazonServiceResponse.h in Headers */,
-				37365F0D0BB117FC92D1515287571849 /* AmazonServiceResponseUnmarshaller.h in Headers */,
-				53A47079C21F0D6178647311097CA0A4 /* AmazonSignatureException.h in Headers */,
-				E3F6B186701150DBBE2A14D09885BCFF /* AmazonStaticCredentialsProvider.h in Headers */,
-				9AB263C2B4D6EFAB724A03836678F936 /* AmazonUnmarshallerXMLParserDelegate.h in Headers */,
-				B0BEE61271DAF057D92E1BCD89868DEC /* AmazonURLRequest.h in Headers */,
-				0D4D93434200B23CB9E0B20A1A1E6F0D /* AmazonValueUnmarshaller.h in Headers */,
-				AE893393096FA0D9EB8CD660B48452F4 /* AmazonWebServiceClient.h in Headers */,
-				500968E7B53DC1DD64228BB8B84581BC /* AWS_SBJson.h in Headers */,
-				CF8D06B6D84A0D85227B6CEA557CF411 /* AWS_SBJsonParser.h in Headers */,
-				C078BF1A9E4004E73EF64B5403ABAA0D /* AWS_SBJsonStreamParser.h in Headers */,
-				94043801CACF831FE830E192B79C754E /* AWS_SBJsonStreamParserAccumulator.h in Headers */,
-				8998694021F652919605574ED63F8DF2 /* AWS_SBJsonStreamParserAdapter.h in Headers */,
-				6C47F262DB40671D4D9C4EEA3F8285E6 /* AWS_SBJsonStreamParserState.h in Headers */,
-				EDC46024FBC6C955C3F4CA29588092FE /* AWS_SBJsonStreamWriter.h in Headers */,
-				737CB94A9EDCDE9CDB5BB492492B8CDE /* AWS_SBJsonStreamWriterAccumulator.h in Headers */,
-				350E97B583A4C3DBBD790FB442FC411C /* AWS_SBJsonStreamWriterState.h in Headers */,
-				388DEF7F96C227672EB3F885CF1FD325 /* AWS_SBJsonTokeniser.h in Headers */,
-				15F3522E956109815D2D92391DEA2A75 /* AWS_SBJsonUTF8Stream.h in Headers */,
-				3AEE7E78EF320AAE6A4693C613879E16 /* AWS_SBJsonWriter.h in Headers */,
-				3F712BC6F61C7299CEC31133D35EC761 /* AWSRuntime.h in Headers */,
-				905100009B34D18A8F92A3274E044A92 /* SBJson.h in Headers */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		CED95D73049B81F74216FC9A129C7590 /* Headers */ = {
-			isa = PBXHeadersBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		D3BE1F76D24BCC25A299A18AB67EDA23 /* Headers */ = {
-			isa = PBXHeadersBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
+				4322EE8E7AD6007B5441AD0B63FDB438 /* AmazonAbstractJsonWebServiceClient.h in Headers */,
+				9FB7DB3B490B591D3A8633E00D6D612B /* AmazonAbstractWebServiceClient.h in Headers */,
+				CD259851679AF283B9147DC3588F5804 /* AmazonAuthUtils.h in Headers */,
+				A9D053DBA756B6C9C4AC14190A87171A /* AmazonBoolValueUnmarshaller.h in Headers */,
+				E7EB22D7037C542687EA8080CAF53E55 /* AmazonClientException.h in Headers */,
+				B761B5D5B65FE31A069DA16FC6F99CF2 /* AmazonCredentials.h in Headers */,
+				0E896B55CD7199B8FD06487D239BCF27 /* AmazonCredentialsProvider.h in Headers */,
+				0674E599AAD28D2DDA7520C6683AB6E8 /* AmazonDictionaryUnmarshaller.h in Headers */,
+				B946AD5695D7A485E06543A9102F6994 /* AmazonEndpoints.h in Headers */,
+				9731E56F4F320E177C83E7ACB1DBFB0E /* AmazonErrorHandler.h in Headers */,
+				9F43ACAD9E97D8B39A0E1DCEE4D19CDA /* AmazonJSON.h in Headers */,
+				1DFFC1ED2B47100A1B90083C530BDBBE /* AmazonListUnmarshaller.h in Headers */,
+				1918222A881211E651923699FE5C7E3B /* AmazonLogger.h in Headers */,
+				CB584E5BC9EF71C1DE7B6A056DBB85CA /* AmazonMD5Util.h in Headers */,
+				070D5711021AAD219EB40D30E285F867 /* AmazonRequestDelegate.h in Headers */,
+				07136C6E4ED5C6D2FAC5ED7F894FFE1C /* AmazonSDKUtil.h in Headers */,
+				B0620087DD07335091C2A65715FFE133 /* AmazonServiceException.h in Headers */,
+				3180CAF8A9155456AF1E0FEBB6440B21 /* AmazonServiceExceptionUnmarshaller.h in Headers */,
+				826DB94E82C66D81029A3335AA7BDFAE /* AmazonServiceRequest.h in Headers */,
+				A9FB28A3C2ECDD23117371B74FCD362C /* AmazonServiceRequestConfig.h in Headers */,
+				C5E52C341787C2FF6DDF79EE04F392AB /* AmazonServiceResponse.h in Headers */,
+				B5A86FD4A70DFFFA3AB61B0F477F59D7 /* AmazonServiceResponseUnmarshaller.h in Headers */,
+				C737CAACE9886D0E23AF5977E4FF6344 /* AmazonSignatureException.h in Headers */,
+				64BD465DD8059189686EC2E71F62B078 /* AmazonStaticCredentialsProvider.h in Headers */,
+				D4547E51F7CA61B440F7EB30C21AE1A7 /* AmazonUnmarshallerXMLParserDelegate.h in Headers */,
+				B72C89E7980E312BC26D836B2C66F719 /* AmazonURLRequest.h in Headers */,
+				DFB1C166D5F14178D79CC8B517976F83 /* AmazonValueUnmarshaller.h in Headers */,
+				E058CA95226F6A42D49433395D526409 /* AmazonWebServiceClient.h in Headers */,
+				CFF5A2220CF68389A2212EAB6D1BE523 /* AWS_SBJson.h in Headers */,
+				C9E914B20733DB38CFE78FF468149CED /* AWS_SBJsonParser.h in Headers */,
+				9218A6FB4AD97B71363F9F9D73AD901D /* AWS_SBJsonStreamParser.h in Headers */,
+				6D9C6958A8517107EB7A8A7C1669B997 /* AWS_SBJsonStreamParserAccumulator.h in Headers */,
+				C2A36BF22B404A894C79544201734B6A /* AWS_SBJsonStreamParserAdapter.h in Headers */,
+				68D0F0B757A71FA2E0C346D68A5F0320 /* AWS_SBJsonStreamParserState.h in Headers */,
+				BE032A3E91F65AA862A69A247B8769F6 /* AWS_SBJsonStreamWriter.h in Headers */,
+				1C2B0C80266640E2273FFEAC9A6CB18B /* AWS_SBJsonStreamWriterAccumulator.h in Headers */,
+				CF19ECE8774FC5BE12615FB0C360DA76 /* AWS_SBJsonStreamWriterState.h in Headers */,
+				1DAF2129E5F846CDF40E7C03F7AF7203 /* AWS_SBJsonTokeniser.h in Headers */,
+				EB7D0FDAA5AA915F07783A755B9482F0 /* AWS_SBJsonUTF8Stream.h in Headers */,
+				DEAAE2976D8CDE478A00AA157CAC33D0 /* AWS_SBJsonWriter.h in Headers */,
+				84108D9377E73B35F06CB2E470E7917C /* AWSRuntime.h in Headers */,
+				D71E5D9376EE12A9DC5936D4DC0258F1 /* SBJson.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXHeadersBuildPhase section */
 
 /* Begin PBXNativeTarget section */
-		A58791E98C99C64F31A509C9553316D4 /* Pods-AWSRuntime_Example */ = {
+		0984F16F832429CB6D556727E0168C8C /* Pods-AWSRuntime_Example */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 53526D54A6035BA86CE57CF33740FB27 /* Build configuration list for PBXNativeTarget "Pods-AWSRuntime_Example" */;
+			buildConfigurationList = D888181F75A5CDB8A47D10933A10F84F /* Build configuration list for PBXNativeTarget "Pods-AWSRuntime_Example" */;
 			buildPhases = (
-				D3BE1F76D24BCC25A299A18AB67EDA23 /* Headers */,
-				D35D65FCEDD5F94F4CCB6F7B0C7C0A63 /* Sources */,
-				590E32D2E41A28D224AE73FCBDB15710 /* Frameworks */,
+				0F6FE9BC67E84EE91DF6601102F67FBD /* Sources */,
+				5FBCEC39A7BE0A72C3361B6C3D6DA11F /* Frameworks */,
 			);
 			buildRules = (
 			);
 			dependencies = (
-				AC2E62189A150B9195BBAE0223A9B86D /* PBXTargetDependency */,
+				BDE53499F9DF0EDC41F569C6F232B0D1 /* PBXTargetDependency */,
 			);
 			name = "Pods-AWSRuntime_Example";
 			productName = "Pods-AWSRuntime_Example";
 			productReference = E2AD1FDF27EF62C973230A0F6F96AE33 /* libPods-AWSRuntime_Example.a */;
 			productType = "com.apple.product-type.library.static";
 		};
-		AEEA534696741976F9AE3B4A4D152CA0 /* AWSRuntime */ = {
+		1B057DD5B0E49F65CFBAF85136F94ECB /* AWSRuntime */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 425A9C790DF759BD5C2182D664F8EDD1 /* Build configuration list for PBXNativeTarget "AWSRuntime" */;
+			buildConfigurationList = 18B88C8B9286ECB26C75BD8A7918D823 /* Build configuration list for PBXNativeTarget "AWSRuntime" */;
 			buildPhases = (
-				28AD4540A42C6305AAEF045893550E29 /* Headers */,
-				633A9316FCD8E937F099860325D236CE /* Sources */,
-				D3F8C5A9F900F06AA69C9B1DEEB808AE /* Frameworks */,
+				A98D25C458A3A6B3BEA14A2C3EF3DE1F /* Sources */,
+				AA165DF6712AE4DB422A3710755948D6 /* Frameworks */,
+				ED1CC24476EFB39DA879768FD394D23D /* Headers */,
 			);
 			buildRules = (
 			);
@@ -576,18 +566,17 @@
 			productReference = FAA61C033412AEB7F407E7038C438C5C /* libAWSRuntime.a */;
 			productType = "com.apple.product-type.library.static";
 		};
-		BEA34BFA9144336ECC00D10ACB75D9A6 /* Pods-AWSRuntime_Tests */ = {
+		4B371176710F97B1F33808F55BEF01F2 /* Pods-AWSRuntime_Tests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 9D347C32077F93F7533C151DED8B2D3A /* Build configuration list for PBXNativeTarget "Pods-AWSRuntime_Tests" */;
+			buildConfigurationList = 521282139C034F0A45823AD414FF9D71 /* Build configuration list for PBXNativeTarget "Pods-AWSRuntime_Tests" */;
 			buildPhases = (
-				CED95D73049B81F74216FC9A129C7590 /* Headers */,
-				A0E8E1F16DE32992D663C56AB006A155 /* Sources */,
-				7D99FEC1486541F05756E0D4FFD462A5 /* Frameworks */,
+				DF8AD0D22BEAAABC5C84D3DFC28F0036 /* Sources */,
+				EF13209F54C2C0E0A2F5E3CA4FED1137 /* Frameworks */,
 			);
 			buildRules = (
 			);
 			dependencies = (
-				087F10A02E1AF8AA88BD5116E15722C8 /* PBXTargetDependency */,
+				88764B7C82DAD9DE21D2A1368873C289 /* PBXTargetDependency */,
 			);
 			name = "Pods-AWSRuntime_Tests";
 			productName = "Pods-AWSRuntime_Tests";
@@ -615,246 +604,96 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				AEEA534696741976F9AE3B4A4D152CA0 /* AWSRuntime */,
-				A58791E98C99C64F31A509C9553316D4 /* Pods-AWSRuntime_Example */,
-				BEA34BFA9144336ECC00D10ACB75D9A6 /* Pods-AWSRuntime_Tests */,
+				1B057DD5B0E49F65CFBAF85136F94ECB /* AWSRuntime */,
+				0984F16F832429CB6D556727E0168C8C /* Pods-AWSRuntime_Example */,
+				4B371176710F97B1F33808F55BEF01F2 /* Pods-AWSRuntime_Tests */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXSourcesBuildPhase section */
-		633A9316FCD8E937F099860325D236CE /* Sources */ = {
+		0F6FE9BC67E84EE91DF6601102F67FBD /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				11733915C4E38E3B01359CE6997A0369 /* AmazonAbstractJsonWebServiceClient.m in Sources */,
-				F47FA4DC1FF35FB33D28E456083CDE9A /* AmazonAbstractWebServiceClient.m in Sources */,
-				D8477129B4DA0A19202B5D4DBD849833 /* AmazonAuthUtils.m in Sources */,
-				542C2D25B216B5A50957C23C03FAFDB6 /* AmazonBoolValueUnmarshaller.m in Sources */,
-				CB69C3AA0D85248959663A17B1B29423 /* AmazonClientException.m in Sources */,
-				A928016A50EB6C2FBD7CD9AC099DCEA3 /* AmazonCredentials.m in Sources */,
-				6E631FAD441318973B94B741754AC2B3 /* AmazonDictionaryUnmarshaller.m in Sources */,
-				92B3135BC04FDD854678F6F406D0525F /* AmazonEndpoints.m in Sources */,
-				813987C6BABB1AD7E5A251B6637548A7 /* AmazonErrorHandler.m in Sources */,
-				847158FA36221A53E3231E10BDDC4F1A /* AmazonJSON.m in Sources */,
-				39F5A3D245BC50A104AC3A86C92F876F /* AmazonListUnmarshaller.m in Sources */,
-				C27E165B4300B7B8D2B73C0A49E67465 /* AmazonLogger.m in Sources */,
-				9BD4EFD8B9FFDA054F67E64470F15FC3 /* AmazonMD5Util.m in Sources */,
-				2258151154373A1D32E4D427C7766F2D /* AmazonRequestDelegate.m in Sources */,
-				3F586F521A05A6C59B9818AB1763581E /* AmazonSDKUtil.m in Sources */,
-				DE4F8A2185DDABE4D30ACE767EC0F48A /* AmazonServiceException.m in Sources */,
-				1420880CD7FD955484F23B524E3DE1E0 /* AmazonServiceExceptionUnmarshaller.m in Sources */,
-				DB222C6E15DEFE8F4849A108767DD34F /* AmazonServiceRequest.m in Sources */,
-				F43432FACDEEB5C42F87A72F580E6C9F /* AmazonServiceRequestConfig.m in Sources */,
-				DEC01647053818EC3E3BA1911538A2C4 /* AmazonServiceResponse.m in Sources */,
-				A942370F0A983F50CABB90CB5C6C246D /* AmazonServiceResponseUnmarshaller.m in Sources */,
-				7A153BD58BA1E8CE2325277C999BD80F /* AmazonSignatureException.m in Sources */,
-				43067CF960C09DDC05A646133004D80E /* AmazonStaticCredentialsProvider.m in Sources */,
-				5912B4612CFCDE2311125545CB06C9DD /* AmazonUnmarshallerXMLParserDelegate.m in Sources */,
-				A6551F5085320D4B0C06BD7AE516B73F /* AmazonURLRequest.m in Sources */,
-				0083C7429FEBBBD1D842240664C04891 /* AmazonValueUnmarshaller.m in Sources */,
-				A80F9B5087596B5ADB4714809560223C /* AmazonWebServiceClient.m in Sources */,
-				2723B356DA95555B2BF10FD26F57764E /* AWS_SBJsonParser.m in Sources */,
-				2C9CE8CD7BC73CF33CC6CD64F47AEEBE /* AWS_SBJsonStreamParser.m in Sources */,
-				025D7ACA6631680899546D6FBA434467 /* AWS_SBJsonStreamParserAccumulator.m in Sources */,
-				D825454722452CB4586F02FD8B79BA1A /* AWS_SBJsonStreamParserAdapter.m in Sources */,
-				CF9C7A7A874D0C650E9E7196481DCC43 /* AWS_SBJsonStreamParserState.m in Sources */,
-				C7BE9372828E136A273D4D1CB50CEF09 /* AWS_SBJsonStreamWriter.m in Sources */,
-				C8672845F9B3D39DF7086B13E27FB2CA /* AWS_SBJsonStreamWriterAccumulator.m in Sources */,
-				1EF630BB0CCF6A23931E1F5528D76553 /* AWS_SBJsonStreamWriterState.m in Sources */,
-				F93421C9D7322C63F7EBC7E4DE2ADB07 /* AWS_SBJsonTokeniser.m in Sources */,
-				7964ECD85419700B73CFD53BC7EF666D /* AWS_SBJsonUTF8Stream.m in Sources */,
-				3024ADCE2F009BCB913B1833A2F3C5B5 /* AWS_SBJsonWriter.m in Sources */,
-				C680ED1176F37C56439633BE939C2652 /* AWSRuntime-dummy.m in Sources */,
-				BBCB847FB609A01550ADB86A96B0278F /* LICENSE-2.0.txt in Sources */,
+				BD52F381E684EE83699D832D63A5FD41 /* Pods-AWSRuntime_Example-dummy.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		A0E8E1F16DE32992D663C56AB006A155 /* Sources */ = {
+		A98D25C458A3A6B3BEA14A2C3EF3DE1F /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				342D2F2B92F4F8B44B34318B29B397B3 /* Pods-AWSRuntime_Tests-dummy.m in Sources */,
+				2F11BFD9027A8345649A8FB6B7DC9AA8 /* AmazonAbstractJsonWebServiceClient.m in Sources */,
+				91FBF4A9548BB2877DF9546AD8194BAA /* AmazonAbstractWebServiceClient.m in Sources */,
+				F7F1DB392AAE45D67FB2903BCD4EF2E6 /* AmazonAuthUtils.m in Sources */,
+				AFA055C2E94A074C41ECE9EC426B75FC /* AmazonBoolValueUnmarshaller.m in Sources */,
+				67E39868D940CC51FBB3F11B21145543 /* AmazonClientException.m in Sources */,
+				CDD402EF4282665EDDC6B9CFA323B3A8 /* AmazonCredentials.m in Sources */,
+				2940AE3AEF95B843CF6A40D4957CAB88 /* AmazonDictionaryUnmarshaller.m in Sources */,
+				15797C7141280B3A3FCD9C72F6C5DEB2 /* AmazonEndpoints.m in Sources */,
+				766C78BAA0736F10D191EFC88F332A77 /* AmazonErrorHandler.m in Sources */,
+				F272969FF7F131EF274B2BA9AAE6A43B /* AmazonJSON.m in Sources */,
+				F95C5050DC30C069972705D73198B609 /* AmazonListUnmarshaller.m in Sources */,
+				A168C74EB3527E1B0D821B490EE53B9E /* AmazonLogger.m in Sources */,
+				7796A5FD48C5FBAD24D308DA1C232CFF /* AmazonMD5Util.m in Sources */,
+				9E7A175600B1B5E95BB7F2B99BD77BA4 /* AmazonRequestDelegate.m in Sources */,
+				CAE242603CEC134880867E165FCFD499 /* AmazonSDKUtil.m in Sources */,
+				D0AAF64E90E59CA269156669C6F66CC8 /* AmazonServiceException.m in Sources */,
+				E688B8BE4D1830B200C762AC26D0EE5B /* AmazonServiceExceptionUnmarshaller.m in Sources */,
+				4995EEC0381C3FB8B7F47B06B2335B6A /* AmazonServiceRequest.m in Sources */,
+				3095A3CA9984D865B59B97CF91EB9940 /* AmazonServiceRequestConfig.m in Sources */,
+				03A21CF709136A1637302F302F081748 /* AmazonServiceResponse.m in Sources */,
+				6465C12BC8F1F96DE8CF5A402BF6E05C /* AmazonServiceResponseUnmarshaller.m in Sources */,
+				C0D19D2CA165FB9CE034B05054BD3863 /* AmazonSignatureException.m in Sources */,
+				D942E34C4CD5546E427BC821FB3E93DC /* AmazonStaticCredentialsProvider.m in Sources */,
+				312DFAE65B6F79814819C6A1615FDDC7 /* AmazonUnmarshallerXMLParserDelegate.m in Sources */,
+				A403B4E7820DB9A6C8C4C9FA3C581366 /* AmazonURLRequest.m in Sources */,
+				31B7356F7830C475E260A36D00AD7F02 /* AmazonValueUnmarshaller.m in Sources */,
+				3C130B2A048D7502B548B6025128FB1D /* AmazonWebServiceClient.m in Sources */,
+				627C7A400C5F325F00CC70BA7D380C3E /* AWS_SBJsonParser.m in Sources */,
+				E60D506AF6F59A0ED25A1FD8D9ECCBC9 /* AWS_SBJsonStreamParser.m in Sources */,
+				8F3C59E4CFDF352E73BF8A641F0AB2AE /* AWS_SBJsonStreamParserAccumulator.m in Sources */,
+				F23A741544F31B82186C4EF2893895C1 /* AWS_SBJsonStreamParserAdapter.m in Sources */,
+				1AEFADB459F3790F864D4AEF1C06022E /* AWS_SBJsonStreamParserState.m in Sources */,
+				8075A0292D357B4A8932C8A2B8AE9B4B /* AWS_SBJsonStreamWriter.m in Sources */,
+				2A7F4A23CDC262E6499EE64A99CFA930 /* AWS_SBJsonStreamWriterAccumulator.m in Sources */,
+				211668BF00EB8365987E5F6FA5C0EF9F /* AWS_SBJsonStreamWriterState.m in Sources */,
+				D9F2B19E1A7E5381FA68159EC7C93A3F /* AWS_SBJsonTokeniser.m in Sources */,
+				AF793EDED293D679BCD2A0D956AEDAB0 /* AWS_SBJsonUTF8Stream.m in Sources */,
+				777286780DD1A3697FCA7855966C1FA8 /* AWS_SBJsonWriter.m in Sources */,
+				89C0E9300CF57284624EC4734BE52ADF /* AWSRuntime-dummy.m in Sources */,
+				1B3745141A1A79FA35A9FDF1ED517845 /* LICENSE-2.0.txt in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		D35D65FCEDD5F94F4CCB6F7B0C7C0A63 /* Sources */ = {
+		DF8AD0D22BEAAABC5C84D3DFC28F0036 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				C72DB71B13691EAA74C086ED3DAEC11C /* Pods-AWSRuntime_Example-dummy.m in Sources */,
+				60A3027C34DF9E0FEC733C981633B383 /* Pods-AWSRuntime_Tests-dummy.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
-		087F10A02E1AF8AA88BD5116E15722C8 /* PBXTargetDependency */ = {
+		88764B7C82DAD9DE21D2A1368873C289 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			name = "Pods-AWSRuntime_Example";
-			target = A58791E98C99C64F31A509C9553316D4 /* Pods-AWSRuntime_Example */;
-			targetProxy = 9FA42982B0EB24CFDABDC5E379C92485 /* PBXContainerItemProxy */;
+			target = 0984F16F832429CB6D556727E0168C8C /* Pods-AWSRuntime_Example */;
+			targetProxy = BEC534912722610486D56238A650D630 /* PBXContainerItemProxy */;
 		};
-		AC2E62189A150B9195BBAE0223A9B86D /* PBXTargetDependency */ = {
+		BDE53499F9DF0EDC41F569C6F232B0D1 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			name = AWSRuntime;
-			target = AEEA534696741976F9AE3B4A4D152CA0 /* AWSRuntime */;
-			targetProxy = 2DD00064A2597A42ABFCCCEC4EBD1992 /* PBXContainerItemProxy */;
+			target = 1B057DD5B0E49F65CFBAF85136F94ECB /* AWSRuntime */;
+			targetProxy = F365630F9A00BB830395BE3C97462743 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
 /* Begin XCBuildConfiguration section */
-		43FD613C2AC3662EC2DD5355E62F84DF /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 84DE1F92073D3DBFA205E03B2B6A31E2 /* Pods-AWSRuntime_Tests.release.xcconfig */;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
-				CODE_SIGN_IDENTITY = "iPhone Developer";
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
-				MACH_O_TYPE = staticlib;
-				OTHER_LDFLAGS = "";
-				OTHER_LIBTOOLFLAGS = "";
-				PODS_ROOT = "$(SRCROOT)";
-				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VALIDATE_PRODUCT = YES;
-			};
-			name = Release;
-		};
-		48AE863A8BF3B99A4B5DC05A9E46C2C7 /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = DA23D442971ABB0F22E17DE87546AA9D /* AWSRuntime.xcconfig */;
-			buildSettings = {
-				CODE_SIGN_IDENTITY = "iPhone Developer";
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				GCC_PREFIX_HEADER = "Target Support Files/AWSRuntime/AWSRuntime-prefix.pch";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
-				OTHER_LDFLAGS = "";
-				OTHER_LIBTOOLFLAGS = "";
-				PRIVATE_HEADERS_FOLDER_PATH = "";
-				PRODUCT_MODULE_NAME = AWSRuntime;
-				PRODUCT_NAME = AWSRuntime;
-				PUBLIC_HEADERS_FOLDER_PATH = "";
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VALIDATE_PRODUCT = YES;
-			};
-			name = Release;
-		};
-		85B95B1234E227C814CCC2C7902D0916 /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ALWAYS_SEARCH_USER_PATHS = NO;
-				CLANG_ANALYZER_NONNULL = YES;
-				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
-				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
-				CLANG_CXX_LIBRARY = "libc++";
-				CLANG_ENABLE_MODULES = YES;
-				CLANG_ENABLE_OBJC_ARC = YES;
-				CLANG_ENABLE_OBJC_WEAK = YES;
-				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
-				CLANG_WARN_BOOL_CONVERSION = YES;
-				CLANG_WARN_COMMA = YES;
-				CLANG_WARN_CONSTANT_CONVERSION = YES;
-				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
-				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
-				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
-				CLANG_WARN_EMPTY_BODY = YES;
-				CLANG_WARN_ENUM_CONVERSION = YES;
-				CLANG_WARN_INFINITE_RECURSION = YES;
-				CLANG_WARN_INT_CONVERSION = YES;
-				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
-				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
-				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
-				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
-				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
-				CLANG_WARN_STRICT_PROTOTYPES = YES;
-				CLANG_WARN_SUSPICIOUS_MOVE = YES;
-				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
-				CLANG_WARN_UNREACHABLE_CODE = YES;
-				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
-				CODE_SIGNING_ALLOWED = NO;
-				CODE_SIGNING_REQUIRED = NO;
-				COPY_PHASE_STRIP = NO;
-				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
-				ENABLE_NS_ASSERTIONS = NO;
-				ENABLE_STRICT_OBJC_MSGSEND = YES;
-				GCC_C_LANGUAGE_STANDARD = gnu11;
-				GCC_NO_COMMON_BLOCKS = YES;
-				GCC_PREPROCESSOR_DEFINITIONS = (
-					"POD_CONFIGURATION_RELEASE=1",
-					"$(inherited)",
-				);
-				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
-				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
-				GCC_WARN_UNDECLARED_SELECTOR = YES;
-				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
-				GCC_WARN_UNUSED_FUNCTION = YES;
-				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
-				MTL_ENABLE_DEBUG_INFO = NO;
-				MTL_FAST_MATH = YES;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				STRIP_INSTALLED_PRODUCT = NO;
-				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
-				SWIFT_VERSION = 4.2;
-				SYMROOT = "${SRCROOT}/../build";
-			};
-			name = Release;
-		};
-		91BFD9179366F48D60C9A7BCB975676B /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 829B34E26F896676B4230A3C4BC82630 /* Pods-AWSRuntime_Example.debug.xcconfig */;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
-				CODE_SIGN_IDENTITY = "iPhone Developer";
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
-				MACH_O_TYPE = staticlib;
-				OTHER_LDFLAGS = "";
-				OTHER_LIBTOOLFLAGS = "";
-				PODS_ROOT = "$(SRCROOT)";
-				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				TARGETED_DEVICE_FAMILY = "1,2";
-			};
-			name = Debug;
-		};
-		92AB1F35D7D8E7E79CEAC6E40239AFB8 /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 2CE7BD7F65B0B82C85FBD8B9FF00BB03 /* Pods-AWSRuntime_Example.release.xcconfig */;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
-				CODE_SIGN_IDENTITY = "iPhone Developer";
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
-				MACH_O_TYPE = staticlib;
-				OTHER_LDFLAGS = "";
-				OTHER_LIBTOOLFLAGS = "";
-				PODS_ROOT = "$(SRCROOT)";
-				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VALIDATE_PRODUCT = YES;
-			};
-			name = Release;
-		};
-		A73625DEBD810B78234FA1958C191C8C /* Debug */ = {
+		1EE19F5DD95931924296F637BF18BD8F /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -908,19 +747,62 @@
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
 				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
-				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
-				MTL_FAST_MATH = YES;
+				MTL_ENABLE_DEBUG_INFO = YES;
 				ONLY_ACTIVE_ARCH = YES;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				STRIP_INSTALLED_PRODUCT = NO;
 				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
-				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
-				SWIFT_VERSION = 4.2;
 				SYMROOT = "${SRCROOT}/../build";
 			};
 			name = Debug;
 		};
-		DB64447FF5534D382CF88A24698D15D8 /* Debug */ = {
+		599A455BBAA0D966A233966981568A05 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = DA23D442971ABB0F22E17DE87546AA9D /* AWSRuntime.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				GCC_PREFIX_HEADER = "Target Support Files/AWSRuntime/AWSRuntime-prefix.pch";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PRIVATE_HEADERS_FOLDER_PATH = "";
+				PRODUCT_MODULE_NAME = AWSRuntime;
+				PRODUCT_NAME = AWSRuntime;
+				PUBLIC_HEADERS_FOLDER_PATH = "";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		5D6B636B7212D41B32A1BAA1CD165A11 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 84DE1F92073D3DBFA205E03B2B6A31E2 /* Pods-AWSRuntime_Tests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MACH_O_TYPE = staticlib;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		85F0FC6603AE77C4AEDB2A1904FFDAB3 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = DA23D442971ABB0F22E17DE87546AA9D /* AWSRuntime.xcconfig */;
 			buildSettings = {
@@ -943,9 +825,110 @@
 			};
 			name = Debug;
 		};
-		F4D228CA12C20D614585D6D404BC4434 /* Debug */ = {
+		D8A873C7DF025C716EA96D3298B05876 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 4D2DF59F521B059A5B76F167E8A0404C /* Pods-AWSRuntime_Tests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MACH_O_TYPE = staticlib;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		EEF607F7197F4B7ABCC4D7D8E2C6EAE4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2CE7BD7F65B0B82C85FBD8B9FF00BB03 /* Pods-AWSRuntime_Example.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MACH_O_TYPE = staticlib;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		F4568DEE257655D290C2B9CEAB37C934 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGNING_ALLOWED = NO;
+				CODE_SIGNING_REQUIRED = NO;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Release;
+		};
+		F8B5A59ABCD775319B946F5D9A5C5E5D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 829B34E26F896676B4230A3C4BC82630 /* Pods-AWSRuntime_Example.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
 				CODE_SIGN_IDENTITY = "iPhone Developer";
@@ -967,38 +950,38 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
+		18B88C8B9286ECB26C75BD8A7918D823 /* Build configuration list for PBXNativeTarget "AWSRuntime" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				85F0FC6603AE77C4AEDB2A1904FFDAB3 /* Debug */,
+				599A455BBAA0D966A233966981568A05 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
 		2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				A73625DEBD810B78234FA1958C191C8C /* Debug */,
-				85B95B1234E227C814CCC2C7902D0916 /* Release */,
+				1EE19F5DD95931924296F637BF18BD8F /* Debug */,
+				F4568DEE257655D290C2B9CEAB37C934 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		425A9C790DF759BD5C2182D664F8EDD1 /* Build configuration list for PBXNativeTarget "AWSRuntime" */ = {
+		521282139C034F0A45823AD414FF9D71 /* Build configuration list for PBXNativeTarget "Pods-AWSRuntime_Tests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				DB64447FF5534D382CF88A24698D15D8 /* Debug */,
-				48AE863A8BF3B99A4B5DC05A9E46C2C7 /* Release */,
+				D8A873C7DF025C716EA96D3298B05876 /* Debug */,
+				5D6B636B7212D41B32A1BAA1CD165A11 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		53526D54A6035BA86CE57CF33740FB27 /* Build configuration list for PBXNativeTarget "Pods-AWSRuntime_Example" */ = {
+		D888181F75A5CDB8A47D10933A10F84F /* Build configuration list for PBXNativeTarget "Pods-AWSRuntime_Example" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				91BFD9179366F48D60C9A7BCB975676B /* Debug */,
-				92AB1F35D7D8E7E79CEAC6E40239AFB8 /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		9D347C32077F93F7533C151DED8B2D3A /* Build configuration list for PBXNativeTarget "Pods-AWSRuntime_Tests" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				F4D228CA12C20D614585D6D404BC4434 /* Debug */,
-				43FD613C2AC3662EC2DD5355E62F84DF /* Release */,
+				F8B5A59ABCD775319B946F5D9A5C5E5D /* Debug */,
+				EEF607F7197F4B7ABCC4D7D8E2C6EAE4 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;

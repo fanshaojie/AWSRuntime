@@ -1,13 +1,9 @@
 {
   "name": "AWSRuntime",
-  "version": "0.1.0",
-  "summary": "A short description of AWSRuntime.",
+  "version": "0.0.1",
+  "summary": "AWSRuntime for my Company",
   "description": "support aws sdk s3 path style",
-  "homepage": "https://github.com/502391721@qq.com/AWSRuntime",
-  "screenshots": [
-    "www.example.com/screenshots_1",
-    "www.example.com/screenshots_2"
-  ],
+  "homepage": "https://github.com/fanshaojie/AWSRuntime",
   "license": {
     "type": "MIT",
     "file": "LICENSE"
@@ -16,8 +12,8 @@
     "502391721@qq.com": "fanshaojie@unionread.com"
   },
   "source": {
-    "git": "https://github.com/502391721@qq.com/AWSRuntime.git",
-    "tag": "0.1.0"
+    "git": "https://github.com/fanshaojie/AWSRuntime.git",
+    "tag": "0.0.1"
   },
   "platforms": {
     "ios": "8.0"
